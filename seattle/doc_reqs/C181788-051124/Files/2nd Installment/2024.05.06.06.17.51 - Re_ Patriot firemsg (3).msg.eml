@@ -1,0 +1,662 @@
+Date: Mon, 6 May 2024 13:17:51 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Subject: Re: Patriot fire 
+From: "The Olivian Maintenance" <theolivianmaint@greystar.com>
+Sender: theolivianmaint@greystar.com
+To: "James Cho" <James.Cho@patriotfire.com>, "Smith, Daniel"
+ <DanielR.Smith@seattle.gov>, "The Olivian Manager"
+ <theolivianmgr@greystar.com>, "Matthew Boehme" <matthew.boehme@greystar.com>,
+ "Dave Wendt" <dave.wendt@greystar.com>
+Cc: "Service" <Service@patriotfire.com>
+Message-Id:
+ <CY8PR05MB9427526BE0BCD17B1F194688D41C2@CY8PR05MB9427.namprd05.prod.outlook.com>
+In-Reply-To: <89d07691714e47d8a181b2e91eaf3f5d@patriotfire.com>
+References:
+ <CY8PR05MB942723FE62F8E995A63D6282D41E2@CY8PR05MB9427.namprd05.prod.outlook.com> <89d07691714e47d8a181b2e91eaf3f5d@patriotfire.com>
+Received: from MW4PR09MB9583.namprd09.prod.outlook.com
+ (2603:10b6:303:1f6::21) by CO6PR09MB8711.namprd09.prod.outlook.com with
+ HTTPS; Mon, 6 May 2024 13:18:13 +0000
+Received: from BL0PR0901CA0019.namprd09.prod.outlook.com
+ (2603:10b6:208:1c0::29) by MW4PR09MB9583.namprd09.prod.outlook.com
+ (2603:10b6:303:1f6::21) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7544.42; Mon, 6 May
+ 2024 13:18:09 +0000
+Received: from BL02EPF0001B416.namprd09.prod.outlook.com
+ (2603:10b6:208:1c0:cafe::c8) by BL0PR0901CA0019.outlook.office365.com
+ (2603:10b6:208:1c0::29) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7544.42 via Frontend
+ Transport; Mon, 6 May 2024 13:18:09 +0000
+Received: from mta-jays8ip.email.us.etp.fireeyegov.com (15.200.32.128) by
+ BL02EPF0001B416.mail.protection.outlook.com (10.167.242.196) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7544.18 via Frontend Transport; Mon, 6 May 2024 13:18:08 +0000
+Received: from [127.0.0.1] ([127.0.0.1:12686] helo=smtp-injection-worker) by
+ etp-prd10-03 (envelope-from <theolivianmaint@greystar.com>) (ecelerity
+ 4.4.1.20033 r(msys-ecelerity:tags/4.4.1.0^0)) with ESMTP id
+ CC/74-18958-F88D8366; Mon, 06 May 2024 13:18:07 +0000
+Received: from BLAPR09CU002.outbound.protection.outlook.com
+ (mail-eastusazlp17011010.outbound.protection.outlook.com [40.93.11.10]) by
+ etp-prd10-05 (envelope-from <theolivianmaint@greystar.com>) FireEye ETP with
+ ESMTPS (cipher=ECDHE-RSA-AES256-GCM-SHA384) id
+ 3yVV0Dc-20009-10gEBF418663D88D836627561ab; batch_id EB/F4-18663-D88D8366;
+ Mon,  6 May 2024 13:18:05 +0000 (UTC)
+Received: from BL0PR0901CA0014.namprd09.prod.outlook.com
+ (2603:10b6:208:1c0::24) by PH8PR09MB9165.namprd09.prod.outlook.com
+ (2603:10b6:510:182::13) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7544.42; Mon, 6 May
+ 2024 13:18:02 +0000
+Received: from DS4PEPF00000172.namprd09.prod.outlook.com
+ (2603:10b6:208:1c0:cafe::1) by BL0PR0901CA0014.outlook.office365.com
+ (2603:10b6:208:1c0::24) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7544.42 via Frontend
+ Transport; Mon, 6 May 2024 13:18:02 +0000
+Received: from mx0a-00294d01.pphosted.com (148.163.150.34) by
+ DS4PEPF00000172.mail.protection.outlook.com (10.167.18.199) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7544.18 via Frontend Transport; Mon, 6 May 2024 13:18:01 +0000
+Received: from pps.filterd (m0248050.ppops.net [127.0.0.1]) by
+ mx0a-00294d01.pphosted.com (8.18.1.2/8.18.1.2) with ESMTP id 445MdXuO008510;
+ Mon, 6 May 2024 08:18:00 -0500
+Received: from bl0pr05cu006.outbound.protection.outlook.com
+ (mail-eastusazlp17013024.outbound.protection.outlook.com [40.93.11.24]) by
+ mx0a-00294d01.pphosted.com (PPS) with ESMTPS id 3xwjpdjvwj-2 (version=TLSv1.2
+ cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT); Mon, 06 May 2024
+ 08:17:59 -0500 (CDT)
+Received: from CY8PR05MB9427.namprd05.prod.outlook.com (2603:10b6:930:96::7)
+ by DS0PR05MB9718.namprd05.prod.outlook.com (2603:10b6:8:141::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7544.39; Mon, 6 May
+ 2024 13:17:51 +0000
+Received: from CY8PR05MB9427.namprd05.prod.outlook.com
+ ([fe80::dd64:ac1b:4d96:f1df]) by CY8PR05MB9427.namprd05.prod.outlook.com
+ ([fe80::dd64:ac1b:4d96:f1df%5]) with mapi id 15.20.7544.041; Mon, 6 May 2024
+ 13:17:51 +0000
+ARC-Seal: i=3; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
+ b=jJssMSofargaN/kqcSuy8lxvRRT16JQR5PHfiM+HPglbERbFAlkTRnrFDxH8/p8SMxv3QZPY9Fj2IvoayzxIpTwaDZRUL56OJwpTyphsdNLRUWDohXB2MHI+rJloJwgOJQtO3rjWk3TYaDalSrbyODjBl5hsntdiCLcJJWmVoGBQuKKjLGzCuXRgQcWzvImRrfQxmqdIzjiaw9r0ZV/6SkdGZkzs7vTwtPOSmS87ws2XY6kRZ0dtaImcLIZHlHNYYTAYOYttH4AJMc8gtLOt+6BbQw9nFhhVgNAYUGLz4YIKqaJf2/1ScbvxB18S47fftaENGM9RsjSoQRt/3Vt/eA==
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=K5n4GVAroENZegdet/r3G8zxwo8N2blM6Vgrf5OqqGurrGwrJ4WYrKF8FoiftKAM8NpdDM9DCDwidgyUlfVO+MHVhxsdNuIJ3GNxqTT6vFdnNMfUsmW9IGt8SRRw5m4S+wvFy15TT0i9cKlPrZJBul+JubMCqb89r/Uh0F5HSiizI0eehWJLqpIEiHl+1juKVSytaJzDTFqYCnMkl9h2o2/Ns0Qsn0DWf6LE0Pd2Wn0JHzr8XmW8d6wnuB+tUMBggoImE/diIYdUi0f197gm4bE/1y9bNkDkXv2JwAvrIt0v/Gbk98fmk9rHosttp1nMCXYQOuxlDLm0FB3UQ0WQQw==
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=UxjAt/vg1DaItjZR4C5XXcjt7hglsGRPsJKSxRz2Kbgn2lEZVddQOdEMNUzk0VAUfpOiniV1jKEAtOnzrq3DfqSY1YBLK9hAW64KDZN9RqCawzEh5kP93WJHkAqewuZjNwslpPQLpQy/cs9rzdvhmjWM5/8Jk1X6YjbWTe1dpfre/3gAPUCsbaxtuK0qre2h+6f/FSt0/6F96sw2xFx5FtUVFadg3skhyhfSEv079EYNYZMPZRX31jszMKVCmyWqad8WmNJJD75uopkLscoPOs5RO1YW4G+AmVaRHJ8YnK0QuEcZl4lrk70PUKNCflYoiabJpY0R9ukB9rrx23y/zg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=GVgS4RZzy9ifCMFilATPjsBb6ttrBv3LuadsxB/wQyk=; b=NY0t4abevhSOfpJGEqc+68ShvA9SR7UuCmX9CQgqSz0WEnG+voN89o92auVAO5UgYgEUajrfhjEDyzTkImzv8ASkBLeskBR4l1mUWu02XLnOJcGoaTWWX/JLjRTr1aMhQNO95zLq1KBa4QD9jT/FeaDqJbY+LmaLp+sW4iVDZdJn7v+PGzQ9Sfyxq71ArMSXcAX0D6pPg80/flAJRvFr3jXOkR0LcfYc4+Av7TccK+oNXymGn/PSbtx9+dxubc4s5UxCFlMC2ij5BCBdiYrk6O5vZtqa2QgikMffdUKcpFGj1cybcJuYPjmqtHzXjyZiqtonCiG/XtUmVDjB7P688g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=42WWlaFhVc0bY+X+XUTG5uE1Zjs3wBe+Z65yKGrXGWQ=; b=DLNxGo3EY12q17iMqjMKcEBgAwJdoHgyKwQP9AxCRnkJ40liLVTtzNaFcyn/gsoFj+zGan7uZqLydBt23gyvdeVCzpHJeCEG9ctRD7My1kUFwKLruKrv44l3M9QeLVh7GM9ejbfi7+dMg5okjvA14947yFHettpbXlCy7zUgyQEyNHkWxvahIVyiW97qTrnFxj9fHlRW3A1ZXJ+/UXyZIctGvwj4ItXSSjtxcJX9miyDhHlmpHiNYPIqEPgd5a2axVWV+xYKfplXOvC8vgVhYe6yIwmXQ/fACqyqsTJAGGmwIKpJZx756z1PT5wBU3YhH4f71CuXS7nM2mC6KLUUdg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=42WWlaFhVc0bY+X+XUTG5uE1Zjs3wBe+Z65yKGrXGWQ=; b=g4gnZDsuOJvqZe7nyN5eu0E5bWkZJW5NLMIilgkomxwhWel66d6FPuOtK2RAgBhJcGkqUBOKD/3HrmtBKpU7O/fOAZEBMt4/SY/dUvd/GARhxlR9I/tmbM4J2MS8Gbq0TDN6vg2VMmO1fTCuhy3pfNpC+G1JT95dUXbLYelhMlfxPG8+VNi1fK6eAMCo94D46G8xB5JoLTTnd5vnR57Cco1cvOkfjz/TecQJ09HMYOKX+QpLZv3B+oJh/9Axznpwo9NAnUF9ywob1QM3Fo4uZR9CDxiaoZuMbRnkn7LvVY75gGGTw51EVVNusoCX4HvOlFD7A0qp+9hUi6Gd33VDpA==
+ARC-Authentication-Results: i=3; mx.microsoft.com 1; spf=fail (sender ip is
+ 15.200.32.128) smtp.rcpttodomain=seattle.gov smtp.mailfrom=greystar.com;
+ dmarc=fail (p=none sp=none pct=100) action=none header.from=greystar.com;
+ dkim=fail (body hash did not verify) header.d=greystar.com; dkim=fail (body
+ hash did not verify) header.d=greystar365.onmicrosoft.com; arc=fail (47)
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=pass (sender ip is
+ 148.163.150.34) smtp.rcpttodomain=seattle.gov smtp.mailfrom=greystar.com;
+ dmarc=pass (p=none sp=none pct=100) action=none header.from=greystar.com;
+ dkim=pass (signature was verified) header.d=greystar.com; dkim=pass
+ (signature was verified) header.d=greystar365.onmicrosoft.com; arc=pass (0
+ oda=1 ltdi=1 spf=[1,1,smtp.mailfrom=greystar.com]
+ dkim=[1,1,header.d=greystar.com] dmarc=[1,1,header.from=greystar.com])
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=greystar.com; dmarc=pass action=none header.from=greystar.com;
+ dkim=pass header.d=greystar.com; arc=none
+Authentication-Results: spf=fail (sender IP is 15.200.32.128)
+ smtp.mailfrom=greystar.com; dkim=fail (body hash did not verify)
+ header.d=greystar.com;dmarc=fail action=none
+ header.from=greystar.com;compauth=none reason=405
+Received-SPF: Fail (protection.outlook.com: domain of greystar.com does not
+ designate 15.200.32.128 as permitted sender) receiver=protection.outlook.com;
+ client-ip=15.200.32.128; helo=mta-jays8ip.email.us.etp.fireeyegov.com;
+Received-SPF: Pass (protection.outlook.com: domain of greystar.com designates
+ 148.163.150.34 as permitted sender) receiver=protection.outlook.com;
+ client-ip=148.163.150.34; helo=mx0a-00294d01.pphosted.com; pr=C
+Return-Path: theolivianmaint@greystar.com
+X-FE-ETP-SENDER-IP: 40.93.11.10
+X-FE-ETP-CONNECTING-IP: 40.93.11.10
+Authentication-Results-Original: spf=pass (sender IP is 148.163.150.34)
+ smtp.mailfrom=greystar.com; dkim=pass (signature was verified)
+ header.d=greystar.com;dmarc=pass action=none
+ header.from=greystar.com;compauth=pass reason=100
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=greystar.com; h=
+ from:to:cc:subject:date:message-id:references:in-reply-to
+ :content-type:mime-version; s=pps1; bh=42WWlaFhVc0bY+X+XUTG5uE1Z
+ js3wBe+Z65yKGrXGWQ=; b=kq2mx+wSQ4YCuZ++6pTHhB7apVHgRn8ZZQAHf/j8z
+ S6s7ll0vC+TBEsJaMbQrt/kMaHdqi+Youa/92sbW9aDtIvqH/cCuxGdIeG3lE7k+
+ BP4P9AUUK9RLzi1cy140hqw+i5rugYDlbwsxUJYJX9z70ogSBOSX+FrTSXGaFuh1
+ N3Z+brvkiv3c+GggXli9miIMZunmyVmDA4/bJCRaVHngJC14bmZgVbMxXYwv8BrU
+ URrluirobf01CldIno53wNQ8nW46InQBD0wXWuPsUAFv+8BlMQr9yLq9uBon4C8n
+ Onj+LO5j7eTaX0dEUc2E1LKqEkhKrTYv11mSgb8nIrVUg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=Greystar365.onmicrosoft.com; s=selector1-Greystar365-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=42WWlaFhVc0bY+X+XUTG5uE1Zjs3wBe+Z65yKGrXGWQ=; b=ebkzef2LM6gmrwtn2usq0F9b24dJ8weyTVOMeJ/fb5k8ChCVWUDCoPwj2AkmCn1hfcBQ6GkN8W/rYagt3hW086XONuUhOwv7A27JzYn/l30MWvtsNAsRvKGpU4JZWefH+b1NbGndRjSHYnUyIJCOWAmz+CKjd6yfgpucA/mPxUs=
+Thread-Topic: Patriot fire 
+Thread-Index: AQHannlWk0QqrB15m0m3K+tFdMNQJ7GJMlKwgAEAPnI=
+Accept-Language: en-US
+Content-Language: en-US
+x-ms-traffictypediagnostic:
+ CY8PR05MB9427:EE_|DS0PR05MB9718:EE_|DS4PEPF00000172:EE_|PH8PR09MB9165:EE_|BL02EPF0001B416:EE_|MW4PR09MB9583:EE_|CO6PR09MB8711:EE_
+X-MS-Office365-Filtering-Correlation-Id: 20948d79-0b7b-4ab0-b1a1-08dc6dcef939
+x-ld-processed: 15cb6c53-0a50-4876-a66c-9a753d760a7d,ExtAddr
+x-ms-exchange-senderadcheck: 1
+X-Microsoft-Antispam-Untrusted:
+ BCL:0;ARA:13230031|1800799015|376005|366007|38070700009;
+X-Microsoft-Antispam-Untrusted: BCL:0;ARA:13230031|35042699013;
+X-Microsoft-Antispam-Message-Info-Original:
+ =?us-ascii?Q?Mr1o/8RgG/V5phAxDpWlczwhp7mKtF7XuCrsX8p8t2PNb5DII/5YVPOLu4Z+?=
+ =?us-ascii?Q?0dAPQP16Ga8u5hwB61t5IgHFp4YWC97bDyFEHsXfIRLhk1yUg40TnHpqPNAf?=
+ =?us-ascii?Q?zZ03U3WRmmGRwBnDnoSXJeJBL9PCc2OMHV3QFvxVHDc+b49Hk/ODFOqfL75h?=
+ =?us-ascii?Q?rYBpMoANock1iLZPMBEnpbGvUYgskK3z72I5NYll+kMmBSfomo4C16afnee8?=
+ =?us-ascii?Q?3HXR0KjTPfvU6gg6zCbsP1HCLZqxpD6S7ttsAQmY44FaEQqZu/BCz73ovi0m?=
+ =?us-ascii?Q?H3ujfR1FH+Ui/pbX0vs3HDUWHjv/yZlH4skNGE+TRDGRPybq1dQDSiFL+X5U?=
+ =?us-ascii?Q?qBgoeF+8vQXpXJUGpl7zdLcnWr4wJzW6Y0ErWW0iFqykl+fij4l1A0yMSo6m?=
+ =?us-ascii?Q?7bDYqfjrEwYjfYvGl64P8RlFVQU9jvdInxmr5C1yx4LH4Ay7VMeFcDR/hOB1?=
+ =?us-ascii?Q?pNRf2Cfrt2vKhBxF9waG6S9Us6k18uUxT/hR+wV0Pq/ntJh0Q55lmN778YvE?=
+ =?us-ascii?Q?fTr1/u2EKY3gqOSSloVbxP2eYuwBTP96+TV/+wntWF2TlxIW01WYOeJeNktI?=
+ =?us-ascii?Q?ChZzpsnNPVhOGOGLol5oTCuMujN626Uq+O1fsE/5espCcoCWt2zMXe30sJtM?=
+ =?us-ascii?Q?Qq1HpqnPhDZIVoBTMCaNKij4pkXOllHeCn3w6xoEYzqPzhxqKIJF6r8Kgdtg?=
+ =?us-ascii?Q?UoFYySsTtDJHbhKW5E20ogtjZhuJUe9TOqUqguzSYoXEc7T1ptWZyfN7qwJD?=
+ =?us-ascii?Q?H1OPPtPzb5XM91MiBCUxcn8XcCAszEGv2PMHI/hWcfFrlMZqB6JSp5zPM9vP?=
+ =?us-ascii?Q?A3kEAiUEDJlNH1iYln5BapDTAfhF2wi2a5JtZGkUAOy5Kb5bTCK3qiovcQHg?=
+ =?us-ascii?Q?2bBc7GFpKkpllP/P6hCaHXj7FJyi8PZLAJ4nRPv9Lll9hg8F+ENtB6Nfp43g?=
+ =?us-ascii?Q?CSCHtbchcyxfJ5drp6gzn1bGSrcmOZqoabn0kAaZKzky/HvMGgvw3oX7PdHd?=
+ =?us-ascii?Q?OF9U9zUt5RmY8GMXLzxcu+ifY3xTwAnYYE2UwLl/GHcjXE42FkPYvLrk9FoQ?=
+ =?us-ascii?Q?YTFVe8OMB5Vsk7RlYWWs9+rLhWB3tTQV+SBbYQODgxDWKikQ9YoCSETnd/Lv?=
+ =?us-ascii?Q?lJcEWrwJRekWpWaYQFNjav5m00wZhbX5ZyuxMD6+DBXztg1EnX4juCz25jwJ?=
+ =?us-ascii?Q?hIZ3H3ZjqE/+Ap/eCZ/89xUlxNyhq4ypYdzlpBvwsBEtB+IzBKe/2UvHT6q/?=
+ =?us-ascii?Q?p0gmVQnojX2NWcUNO/CHHAqWYwTDCiG3K/iiKHg6PQ=3D=3D?=
+X-Microsoft-Antispam-Message-Info-Original:
+ =?us-ascii?Q?ZjqTeEhn5drEhvHwN0onCZDBm7tOh1ug8eR1Ao+8QgIm40CJjnMie0MnVPUP?=
+ =?us-ascii?Q?KUr341d73gxKMBRsQVqqKxwTEfOZSDw49sCqmxnNxyIfenIAhcfYkkXDAdlV?=
+ =?us-ascii?Q?2/jbgIRCnJUtsh6CnrS1ATiV2qgS4BdJASrglVeeevdrSXJNVHkpyUofdJk9?=
+ =?us-ascii?Q?iggyyaRJQ4pD4ODoOKwcC3ZZ9OFVWFBxfwDrZTooRiT9JzcASAonGcNoj5ii?=
+ =?us-ascii?Q?LfyBRqsM1Dgu///+nzfhSEByI9MDKUl2u7ETgXkOcVcKY4MzrydZi/h8aYuL?=
+ =?us-ascii?Q?TX1S1Z2H7qA+Fy6cH8hMxpnjiBf2NovQDPAA9TEZXH2smirdRKr9elIGvF/7?=
+ =?us-ascii?Q?KRe0QnY8SSrZi6Jy4qihMG+maJOQwL3zhpzSb1rQvbeAMH07LjYNRNhtuWll?=
+ =?us-ascii?Q?6lyl+6UzIYx/q0I3mlQOpxpmIFMkXq6nKsxlZSLxXDnosWniGt5GxsoTjz0o?=
+ =?us-ascii?Q?ECRBDFKzHt2qV4U8sU2kxk1rRDpIZQsUo0q22+SNZgGfjkqUz3UAhNr3TFbm?=
+ =?us-ascii?Q?+1CVXwBJzm3MeccjJpKO4nTCmRDUdsoNEAURcloba6jV03cezLBedVldDTOs?=
+ =?us-ascii?Q?m8Um8SvofwvxLigFsI/VeXhT5jBou6jaFNXuZfzVDQbBC2CDFit06J8dZ8yP?=
+ =?us-ascii?Q?UmtHFwojxwUVwnQRkypQRYR9huzegCcHICH4NXcOQhoAodPv49Rsq0ERCYrJ?=
+ =?us-ascii?Q?bce/VDoVd6WQG3y4K9TX5X4mkfqnupTmxbBtzZK1nKXSqpeuZRKhtgWKldN0?=
+ =?us-ascii?Q?baFSQSIuKvOokgIaRB1Pqh8ZUBeL5JeTOYiAwL0JXIPoGxyCd93yS5ZxUMFv?=
+ =?us-ascii?Q?3Qp8xY9F9imdn54feWoeXTt0SjYmndA1musejzA7lkmU3f1qdi4LJZQn/5fO?=
+ =?us-ascii?Q?JX6hsl0Qf4ygGyF/wdmcZDPZjT79qvCSQF8J03+NV6pwUBDcxVPsK6z9hWSG?=
+ =?us-ascii?Q?Lye+9Gd9OA/ZvIOtLmcU2WNaDPuoYIUoH6rydYE10on8P3yPspZJu5uMi0ov?=
+ =?us-ascii?Q?nl/FQdue3HXL+HgVLsrH1Ih2FQE1V92eSfgYX4/EZB6ow/YUOop5qa0IIF5h?=
+ =?us-ascii?Q?+Cma9om5ajfygi7KpVKtCQfg3pu9as0k7S9BPxH0elcbh9sGfmVq8zGdvnFu?=
+ =?us-ascii?Q?KGSZiiHejt2h0qs2xPqRVwu72u/tto2aXhJS0doCKZ+a7AH2euvxd/x/+5Ew?=
+ =?us-ascii?Q?GjSDXEIFv9cKfuUJDJYEBhSAFMJI5XyCBcw2LV861WtDpsVM2SwCNfAAeH1b?=
+ =?us-ascii?Q?2drHz6PvkC/BzRcnYh/z3z1hg1pQREcaojLyzqQJfrOKaDkFYEoCGFqoTuTk?=
+ =?us-ascii?Q?Xw0JJ/XxP9Jp5O63aOyHOym/emFUmWPB4q4icfla3mKQlneomgVjviJejCLX?=
+ =?us-ascii?Q?/smI9lBNXjUOORVp56zeX3EVyfhzTuW/IW153ApVIAuhkWl+4nfoP8xFDIoH?=
+ =?us-ascii?Q?mkhqnCSpTmsu3SeqLauYHTXomRjFcFztzOhOFiasAnC3GQWG0bcq9/9I1pJL?=
+ =?us-ascii?Q?iCcVOJ2NOFalskaQ6T49ATSkM+2XglRIDCMIAZtCEqxL3agydcgVM1/HsY1Z?=
+ =?us-ascii?Q?V3M9NqgH4Qi9LGmy1qdVnUexWcKHojIRcyP579toGBAJDorvfi/Q3R6HF0cJ?=
+ =?us-ascii?Q?d3F/xv39t3ofKwm5B56kJmtIkVKNF7o6EbjwlT0s380J7Uq1ILrDA5991iQM?=
+ =?us-ascii?Q?f82LLeYvsLbkku+v4sdImPW7xh7NCUNcgBHXmU6Mle+4NRJkqnJQHfI70N/W?=
+ =?us-ascii?Q?zK4iK1PAsJ1b3BXVAq2SF8+mulz94GiCmx+Veu7keKyLtfI5pC6EElojCNqG?=
+ =?us-ascii?Q?RgbcSh65Icr3gA/Z9diHUpwhcom0TuI+QxWRL6hpWOlk5mqETwtgKMbFsrG2?=
+ =?us-ascii?Q?vcU5a2KdX/0jL7LM1UOksZBxj7VgxPX84noUtXa6OaNmlKFlPv+C9kN3d4+o?=
+ =?us-ascii?Q?HbUi0s+GjdfnnV2jjnDYDg=3D=3D?=
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CY8PR05MB9427.namprd05.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230031)(1800799015)(376005)(366007)(38070700009);DIR:OUT;SFP:1101;
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:148.163.150.34;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mx0a-00294d01.pphosted.com;PTR:mx0a-00294d01.pphosted.com;CAT:NONE;SFS:(13230031)(35042699013);DIR:INB;
+X-MS-Exchange-AntiSpam-MessageData-Original-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-Original-0:
+ =?us-ascii?Q?UTam+dfzkC1YNleG83OU920MccybC7ISsvzQx1wZsGF6xx4yhDziuht+kJOj?=
+ =?us-ascii?Q?fFPc6MUmqqWJiM5+62Q+bwTzcqx6ehzvpf9dbRuaNLpSO7IyafaXhNwUpkxn?=
+ =?us-ascii?Q?sheemp+WjMJfXrHuX2+nZnknOSi0kWkvfFOV6ISoLb0AoPpWT+jktN+lV+Br?=
+ =?us-ascii?Q?1R3ipkTH7ikIdGwpCQyQuIOvbLSFVQey1ePe+4M1rIPJoYQX5AS5Tq5AhaAz?=
+ =?us-ascii?Q?dNcfbPeozVWPhNxfkOTLgUZgdq+NFlq5GJ6cFOQ1OgackVDnwhfFHJRcmEXb?=
+ =?us-ascii?Q?qGuG0bqUmLZrzo9DcoQ5+jbIsllSsppZXd9LI78uQb0T30YTC8FSH7sRPrMv?=
+ =?us-ascii?Q?sdfViOhb6Lr/KHqF3E8RszU4sQN8XmzNy7lHAi1k93uh6OaaLsm5Pq7tZI2h?=
+ =?us-ascii?Q?5iuWWkoOm9fqZFT2pWU7XOhLsn2xHy5FVTvje663o85cRGy5ngWehz4Mh9jg?=
+ =?us-ascii?Q?FZ2dgXOpjAEUYdl8ZmCqS1GnqjIB2MrAf4jNOecuBlz11dIWDebpZLIev3NK?=
+ =?us-ascii?Q?9pb3IqC0IGXCH+Lif1UXWppQ4o1y4UW2EQMzA4mOJyo4wdtJpwUStXkJrcHK?=
+ =?us-ascii?Q?DYua86Afey8Sjd/sG/WOJwKM/SUCOPMn3otffldFxIKHGUyo4fZTSBSwja+4?=
+ =?us-ascii?Q?U/z56yh5sPK9PsjPm6A9XYiEXNfEuCzqadZ8cwlniHDD5uacXKjvv/ZlliYt?=
+ =?us-ascii?Q?KjAb2iJlokTz9khuQ/efblpGAZ9KpeayMBTW491YWucX6Kh8GXOTms3ETXwE?=
+ =?us-ascii?Q?jhQeUvWAIZ5ylI3peo6u5eK1eGgstrg41NxVO2nPmVEjkDpH2PVBtoVQGXkF?=
+ =?us-ascii?Q?/kenHIxOTIPAy8muVtjhEiWnABih/l1iz61ZrN9suhLNYMi5/6b47/QVhMjG?=
+ =?us-ascii?Q?tb7YG8z6i0Q4pGKwcs3ptAQGNuKVHqo9VLXRB0BC8kkbfGAqyHmdcX6TIX/L?=
+ =?us-ascii?Q?natR8RSzUJMJh2O3v3pdsFtIX1WFuNxR4QaFPlK30HXtJG6Irqo1kEQOW4XU?=
+ =?us-ascii?Q?XNagWKQmLEaRfXDb7d/VM2Eu9c8ry1kDt0/2dmdwgku1xvyFpvA6/Eq/QIJv?=
+ =?us-ascii?Q?tjEOZv/elhN+YxQ2ixKd7JnkKR7dZmbSjcZG/l991DZyXAIZqr+0whgw2vuT?=
+ =?us-ascii?Q?P5lrdIPKreC7y5A6zfA0zbj2Z8z37MDeto49fsHQuzGj0ePhoI4UgiutZ6pp?=
+ =?us-ascii?Q?06A3Nbnepr9cT0+43Iyu9wf7HrD/gJBRvur9AGtrmBd25OX93ZVrnniVwZFJ?=
+ =?us-ascii?Q?IIKRwEEXyohvILEDFcSAm9lqxPdka//GkIJE2ucAwcZDLv1ULOD7izb8vvp5?=
+ =?us-ascii?Q?+OHoKIPyBYJj0NTwU25cPlM5JxObWtSi/J+LzdGVdnmGyM0X3jUrcdEL5nRp?=
+ =?us-ascii?Q?0T2QXTqIEqbWxZS+WCOopkpQTvc7Khn6e4nmbFU2bE2Bi8r8lK1YgWGGeAK4?=
+ =?us-ascii?Q?zBEQxU2BAKzz2dA4B85+px1jaOPsTCUfjkyP2WCy2AKYrUApS+Omm2ohDSwo?=
+ =?us-ascii?Q?EQvVD853kPGK+bVKYczz7/rDBT1mareVQBmCxh+N+uf4kxysW3ZG9Mrh6OF4?=
+ =?us-ascii?Q?X65qksO1VfFY4r7IIQ2ZHjPkxLgbmfNHU6Id5EF179DE++PVtu5DNTbPba6Y?=
+ =?us-ascii?Q?4idx5XWnhuaL7KxwYhlLGaIUtW4k9qb8o8pXSf8rnsGTiqNIk4QzzDIp+VuK?=
+ =?us-ascii?Q?8yKVAg=3D=3D?=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DS0PR05MB9718
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH8PR09MB9165
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MW4PR09MB9583
+X-Proofpoint-GUID: qvsQBuCianYH8w5QfO0qzweZEJg2bFJ5
+X-Proofpoint-ORIG-GUID: qvsQBuCianYH8w5QfO0qzweZEJg2bFJ5
+X-Proofpoint-Virus-Version: vendor=baseguard
+ engine=ICAP:2.0.293,Aquarius:18.0.1011,Hydra:6.0.650,FMLib:17.11.176.26
+ definitions=2024-05-06_08,2024-05-06_02,2023-05-22_02
+X-Proofpoint-Spam-Details: rule=outbound_notspam policy=outbound score=0
+ bulkscore=0 lowpriorityscore=44 malwarescore=0 spamscore=0 impostorscore=0
+ phishscore=0 suspectscore=0 adultscore=0 mlxscore=0 clxscore=1011
+ priorityscore=1501 mlxlogscore=999 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=8.19.0-2404010003 definitions=main-2405060092
+X-EOPAttributedMessage: 1
+X-EOPTenantAttributedMessage: 78e61e45-6beb-4009-8f99-359d8b54f41b:1
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ DS4PEPF00000172.namprd09.prod.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ BL02EPF0001B416.namprd09.prod.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ be761531-52a5-4376-224d-08dc6dceeede
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ 70010ce2-3b4b-4a8e-3e6c-08dc6dcef4e7
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-FE-ETP-METADATA:
+ eyAidGlkIjogIjN5VlYwRGMtMjAwMDktMTBnRUJGNDE4NjYzRDg4RDgzNjYyNzU2MWFiIiwgImFj
+ Y2VwdGVkX3RpbWVzdGFtcCI6ICIyMDI0MDUwNjEzMTgwNSIsICJhY2NlcHRlZF90aW1lc3RhbXBf
+ ZXBvY2giOiAiMTcxNTAwMTQ4NSIsICJkb21haW5fbmFtZSI6ICJzZWF0dGxlLmdvdiIsICJhdHRf
+ Y291bnQiOiAtMiwgInNyY19pcCI6ICI0MC45My4xMS4xMCIgfQ==
+X-MS-Exchange-Organization-ExpirationStartTime: 06 May 2024 13:18:09.1766
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 20948d79-0b7b-4ab0-b1a1-08dc6dcef939
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BL02EPF0001B416.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;ARA:13230031|35042699013|82310400017;
+X-Forefront-Antispam-Report:
+ CIP:15.200.32.128;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:mta-jays8ip.email.us.etp.fireeyegov.com;PTR:mta-jays8ip.email.us.etp.fireeyegov.com;CAT:NONE;SFS:(13230031)(35042699013)(82310400017);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 May 2024 13:18:08.8328
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+ 20948d79-0b7b-4ab0-b1a1-08dc6dcef939
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource:
+ BL02EPF0001B416.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.6112956
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7544.013
+X-Microsoft-Antispam-Mailbox-Delivery:
+ ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?XaxANj4B31posi3XD8OTsB8JkSRnVcD0s7/6JvKt2DX9uiit8SXLpnIwCf5M?=
+ =?us-ascii?Q?2Nz7/mItGxxGh7f6zp3U5p2k9Rm0Q79wxry2lFf6xzlC31iDB00Qiq+U+JLl?=
+ =?us-ascii?Q?hkhbd9v/vzKtVDAHlck8du9uFCrP2NKVBoFW+u1z+vK8h0S4PoxzUQabXfVb?=
+ =?us-ascii?Q?gDzKlZbcXHop7t/Fj/TqngCG3kKQTiJUMyh4eM6HH+p1B+rh4neTtjSBNul/?=
+ =?us-ascii?Q?q8nFViBIfLInI2wKQddB9ccNm1+N9j5a7EN+aIHwh4ixmit5pOY+ngOUOf8F?=
+ =?us-ascii?Q?rN+RoZpDAj4kX9qkI+V7V1/X+ipS/1JDZJVzD3wXkkszpsdvbA5gXxfFQoML?=
+ =?us-ascii?Q?jTPkyHhdbmYM2DWBOBqJ+DFphusV4Jln+3Gp4ye2b19vG6Vs4/DT2I1zVsdp?=
+ =?us-ascii?Q?An1EjluDYYpWuOjQt+hPDyJtSgPILEluqS8hZO/YMWDUMGmVlcjMge5Z/3Nq?=
+ =?us-ascii?Q?ipiOkQ1orgAbTo/oYc6XDjfC2/qsWT9RE6uOFOnaqJ9ttlsDwDtmvwxMH0he?=
+ =?us-ascii?Q?41IIrNYFRdBnfmMAavUuwU6Jmfpm/L7exaKWv3rVtT8d0nW52l7hNIOFEvfd?=
+ =?us-ascii?Q?e+67c7eKxoFGv/9tV+bd53shtTyd2y7vEaRDnZ6/u2J9oXdwaq3oA5k8RmOm?=
+ =?us-ascii?Q?W1U+bqLizbL6pkht+dg9+4taNK70VOstQy4nExceYaiUCV5GSHwbYyNpvniK?=
+ =?us-ascii?Q?3wC8qxpmlgu+nftKERTj3jrFSUKj0x6aJ6I6BmFc4O6+4PpHrC4FLfEKPPi+?=
+ =?us-ascii?Q?APhQCIzOzhyX7LYRzGcM5tAppdjuwjOE6nipfYeVaOzS+wHIjjj3tWqOFrvJ?=
+ =?us-ascii?Q?YNTaWUVh6iqKZTkBwu0AXlHfoXUVZr4X9lhFHZokxBNUN73xn4g5oup++wFQ?=
+ =?us-ascii?Q?aZH+1BbYpkVWXDs0a0IqAwvy5mExDw3wMNgGU6oS5+rrDNIiXvqETasw7nTc?=
+ =?us-ascii?Q?ZQleeEpjAoAM3MN7b83mCHb1PBfJUkKS4yNYRjbcxdVIm0c8bE5Kk9365CmQ?=
+ =?us-ascii?Q?jiAircRgJ1FKmSjF09qOFsqKEOQRMrkvd4NucKAgZ0IU5EPgZ8EUUblRMXL/?=
+ =?us-ascii?Q?SkelzPzuQVDodefnZJKZDEZ5FkbyHsztPklWsj5v08eskS16x14r6IuPGH90?=
+ =?us-ascii?Q?c3hyx7sQ/1QdKrYudgbtExIuI5liKXRkk8Smq4L/IIipX5ASaJSiMxPqdYG4?=
+ =?us-ascii?Q?7ABi9T0losyZDj2DweR/YITsa5+vd4gD2ta1hE3YneInIQ6aeg5hkBeTzJOy?=
+ =?us-ascii?Q?9gZk8U/uNK2hztu5lM2jT25G4SC60ld/xU0YTHNmjMZd93D+Gw/kjJi3dWtU?=
+ =?us-ascii?Q?j6eLEWrJgIWm93FoFAw966WqJzGrbY9TCDRZpGYmJiOcItNXt3JNaDKGm5O7?=
+ =?us-ascii?Q?0wPduz1+L/QEAuGfdpSF4JuQPvg4uEQEK6bJowDWo7vPctNhyylTTFVUSfaA?=
+ =?us-ascii?Q?IG2Nu5ylTOMx53d3yu5YSUh0m6yjBtabM65T+ZtNftmuqOSvqoR//K4r6lA8?=
+ =?us-ascii?Q?T9bln9lOgA8iXOVMogKls9LdkpKSIe4g6Z4YNTFB48K5FMbYRWGBlompxNA5?=
+ =?us-ascii?Q?8UR+WJY6aMnD8/oWQ2VdmEZ9Cvym9WZgpNyQMw2YGmJikkvbavlI+fleoDH7?=
+ =?us-ascii?Q?XiMHVayLOAsgjbUZ4vYczPwGDBY7hFmqVOterVAiYDsEPcMf65f8hpQ0aV6X?=
+ =?us-ascii?Q?QodMXHLmhf7nxKkAmEzAIDxN95Of/kwaOozzsu/O/hQQNkhmKkngR7m4pOhe?=
+ =?us-ascii?Q?znavqPw6TKN+tkRo34ruTKNl5QwWpRBxorYvusmMh+aqopbc6LXyefNl+b3R?=
+ =?us-ascii?Q?tEsilXWFAbSO30o6MKCtQfpwCY//5l1p0vGPyuRmz2dQ9EJzWrh/EpuLDXpY?=
+ =?us-ascii?Q?J1ooKiD4k+6d2Cjbp3ZzKt/xE3oY1SCEyfGF3fDNLe3SJ+/6XrUWsoLFKFrJ?=
+ =?us-ascii?Q?+ym/xb4Q+iMNSCXukNHJSMu+BWbk7n+Z9/1/BTQRmEkKrOHWvHpe2FFBxLjB?=
+ =?us-ascii?Q?oTv/QNdZ1sNCvSq1s0od/39jVw=3D=3D?=
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"background-color: #ffeb9c; width: 180px; padding: 2pt; font-s=
+ize: 10pt; font-weight: bold; line-height: 12pt; font-family: 'Calibri'; co=
+lor: #9c6500; text-align: center; border: 1pt solid #9C6500;">
+CAUTION: External Email</div>
+<div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Thank you!</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div id=3D"Signature">
+<p style=3D"text-align: left; background-color: rgb(255, 255, 255); margin:=
+ 0px; font-family: Calibri, sans-serif; font-size: 11pt; color: rgb(32, 31,=
+ 30);">
+<span style=3D"font-size: 10pt; color: rgb(0, 119, 212);"><b>Robert Nelson<=
+/b></span><span style=3D"font-size: 10pt; color: rgb(0, 112, 192);">&nbsp;<=
+/span><span style=3D"font-size: 10pt; color: rgb(127, 127, 127);">|&nbsp;Se=
+rvice Supervisor</span></p>
+<p style=3D"text-align: left; background-color: rgb(255, 255, 255); margin:=
+ 0px; font-family: Calibri, sans-serif; font-size: 11pt;">
+<span style=3D"font-size: 10pt; color: rgb(0, 119, 212);"><b>The Olivian</b=
+></span><span style=3D"font-size: 10pt; color: rgb(0, 112, 192);">&nbsp;</s=
+pan><span style=3D"font-size: 10pt; color: rgb(127, 127, 127);">|&nbsp;809 =
+Olive Way|&nbsp;Seattle, WA 98101</span></p>
+<p style=3D"text-align: left; background-color: rgb(255, 255, 255); margin:=
+ 0px; font-family: Calibri, sans-serif; font-size: 11pt; color: rgb(32, 31,=
+ 30);">
+<span style=3D"font-size: 10pt; color: rgb(127, 127, 127);"><b>O </b>206.34=
+0.0809|</span><span style=3D"font-size: 10pt; color: gray;">&nbsp;</span><s=
+pan style=3D"font-size: 10pt;"><a href=3D"mailto:steven.womack@greystar.com=
+" target=3D"_blank" rel=3D"noopener noreferrer" style=3D"margin: 0px;">Theo=
+livianmaint@greystar.com</a></span><span style=3D"font-size: 10pt; color: g=
+ray;">&nbsp;|</span><span style=3D"font-size: 10pt; color: rgb(31, 73, 125)=
+;">&nbsp;</span><span style=3D"font-size: 10pt; color: rgb(0, 119, 212);"><=
+b><a href=3D"https://protect2.fireeye.com/v1/url?k=3D31323334-50bba2bf-3132=
+1b84-4544474f5631-4b0a0dcc406c6d2a&amp;q=3D1&amp;e=3D94363513-fe53-416e-a6b=
+4-902b48a0221c&amp;u=3Dhttp%3A%2F%2Fwww.greystar.com%2F" target=3D"_blank" =
+rel=3D"noopener noreferrer" style=3D"color: rgb(0, 119, 212); margin: 0px;"=
+>greystar.com</a></b></span></p>
+<span style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-siz=
+e: 12pt;"><br>
+</span></div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> James Cho &lt;James.C=
+ho@patriotfire.com&gt;<br>
+<b>Sent:</b> Sunday, May 5, 2024 3:00 PM<br>
+<b>To:</b> The Olivian Maintenance &lt;theolivianmaint@greystar.com&gt;; Sm=
+ith, Daniel &lt;DanielR.Smith@seattle.gov&gt;; The Olivian Manager &lt;theo=
+livianmgr@greystar.com&gt;; Matthew Boehme &lt;matthew.boehme@greystar.com&=
+gt;; Dave Wendt &lt;dave.wendt@greystar.com&gt;<br>
+<b>Cc:</b> Service &lt;Service@patriotfire.com&gt;<br>
+<b>Subject:</b> [EXTERNAL] RE: Patriot fire </font>
+<div>&nbsp;</div>
+</div>
+<style>
+<!--
+@font-face
+	{font-family:"Cambria Math"}
+@font-face
+	{font-family:Calibri}
+@font-face
+	{font-family:Aptos}
+p.x_MsoNormal, li.x_MsoNormal, div.x_MsoNormal
+	{margin:0in;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif}
+a:link, span.x_MsoHyperlink
+	{color:blue;
+	text-decoration:underline}
+span.x_EmailStyle20
+	{font-family:"Aptos",sans-serif;
+	color:windowtext}
+.x_MsoChpDefault
+	{font-size:10.0pt}
+@page WordSection1
+	{margin:1.0in 1.0in 1.0in 1.0in}
+div.x_WordSection1
+	{}
+-->
+</style>
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple" style=3D"word-wrap:break=
+-word">
+<div class=3D"x_WordSection1">
+<p class=3D"x_MsoNormal"><span style=3D"font-size:11.0pt">Including our ser=
+vice team here to confirm below. Also if we need to come back out to update=
+ the tags
+</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"font-size:11.0pt">&nbsp;</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"font-size:11.0pt">Thanks </span></p>
+<p class=3D"x_MsoNormal"><span style=3D"font-size:11.0pt">&nbsp;</span></p>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"font-size:11.0pt">&nbsp;</span></p>
+<table class=3D"x_MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tbody>
+<tr style=3D"height:2.0pt">
+<td width=3D"133" rowspan=3D"2" valign=3D"top" style=3D"width:100.0pt; bord=
+er:none; border-bottom:solid navy 1.5pt; padding:0in 0in 0in 0in; height:2.=
+0pt">
+<p class=3D"x_MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-=
+serif; font-variant:small-caps"><img width=3D"112" height=3D"38" id=3D"x__x=
+0000_i1025" style=3D"width:1.1666in; height:.3958in" src=3D"http://www.patr=
+iotfire.com/files/library/patriotsiglogo.gif"></span><span style=3D"font-fa=
+mily:&quot;Arial&quot;,sans-serif; font-variant:small-caps"></span></p>
+</td>
+<td colspan=3D"6" valign=3D"top" style=3D"padding:1.5pt 0in 0in 1.0pt; heig=
+ht:2.0pt">
+<p class=3D"x_MsoNormal"><b><span style=3D"font-family:&quot;Arial&quot;,sa=
+ns-serif; font-variant:small-caps; color:#404040">James&nbsp;Cho
+</span></b><b><span style=3D"font-size:8.0pt; font-family:&quot;Arial&quot;=
+,sans-serif; font-variant:small-caps; color:#404040">- ITM - Inspections Di=
+vision Manager</span></b><span style=3D"font-family:&quot;Arial&quot;,sans-=
+serif; font-variant:small-caps"></span></p>
+</td>
+</tr>
+<tr style=3D"height:9.75pt">
+<td colspan=3D"6" valign=3D"top" style=3D"border:none; border-bottom:solid =
+navy 1.5pt; padding:4.0pt 0in 0in 1.0pt; height:9.75pt">
+<p class=3D"x_MsoNormal" align=3D"right" style=3D"text-align:right"><span s=
+tyle=3D"font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif; font-var=
+iant:small-caps; color:#404040">D&nbsp;253.284.3545
+</span><b><span style=3D"font-size:8.0pt; font-family:&quot;Arial&quot;,san=
+s-serif; font-variant:small-caps; color:#C0504D">|</span></b><span style=3D=
+"font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif; font-variant:sm=
+all-caps; color:#404040"> C&nbsp;253.344.3056
+</span><b><span style=3D"font-size:8.0pt; font-family:&quot;Arial&quot;,san=
+s-serif; font-variant:small-caps; color:#C0504D">|
+</span></b><span style=3D"font-size:8.0pt; font-family:&quot;Arial&quot;,sa=
+ns-serif; font-variant:small-caps; color:#404040"><a href=3D"mailto:James.C=
+ho@patriotfire.com"><span style=3D"color:#0563C1">James.Cho@patriotfire.com=
+</span></a></span><span style=3D"font-family:&quot;Arial&quot;,sans-serif; =
+font-variant:small-caps"></span></p>
+</td>
+</tr>
+<tr style=3D"height:.75pt">
+<td width=3D"133" valign=3D"top" style=3D"width:100.0pt; padding:0in 0in 0i=
+n 0in; height:.75pt">
+<p class=3D"x_MsoNormal"><span style=3D"font-size:7.0pt; font-family:&quot;=
+Arial&quot;,sans-serif; font-variant:small-caps; color:#000065">Patriot Fir=
+e Protection, Inc.</span><span style=3D"font-family:&quot;Arial&quot;,sans-=
+serif; font-variant:small-caps"></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 1.0pt; height:.75pt">
+<p class=3D"x_MsoNormal"><b><span style=3D"font-size:7.0pt; font-family:&qu=
+ot;Arial&quot;,sans-serif; font-variant:small-caps; color:#C0504D">|
+</span></b><span style=3D"font-family:&quot;Arial&quot;,sans-serif; font-va=
+riant:small-caps"></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 1.0pt; height:.75pt">
+<p class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-size:7.0pt; font-family:&quot;Arial&quot;,sans-serif; font-v=
+ariant:small-caps; color:#000065">2707 70th Ave. E.</span><span style=3D"fo=
+nt-family:&quot;Arial&quot;,sans-serif; font-variant:small-caps"></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 1.0pt; height:.75pt">
+<p class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><b><s=
+pan style=3D"font-size:7.0pt; font-family:&quot;Arial&quot;,sans-serif; fon=
+t-variant:small-caps; color:#C0504D">|
+</span></b><span style=3D"font-family:&quot;Arial&quot;,sans-serif; font-va=
+riant:small-caps"></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 1.0pt; height:.75pt">
+<p class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-size:7.0pt; font-family:&quot;Arial&quot;,sans-serif; font-v=
+ariant:small-caps; color:#000065">Tacoma,&nbsp;WA &nbsp;98424</span><span s=
+tyle=3D"font-family:&quot;Arial&quot;,sans-serif; font-variant:small-caps">=
+</span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 1.0pt; height:.75pt">
+<p class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><b><s=
+pan style=3D"font-size:7.0pt; font-family:&quot;Arial&quot;,sans-serif; fon=
+t-variant:small-caps; color:#C0504D">|
+</span></b><span style=3D"font-family:&quot;Arial&quot;,sans-serif; font-va=
+riant:small-caps"></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 1.0pt; height:.75pt">
+<p class=3D"x_MsoNormal" align=3D"right" style=3D"text-align:right"><span s=
+tyle=3D"font-size:7.0pt; font-family:&quot;Arial&quot;,sans-serif; font-var=
+iant:small-caps; color:#000065">P 253.926.2290</span><span style=3D"font-fa=
+mily:&quot;Arial&quot;,sans-serif; font-variant:small-caps"></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"x_MsoNormal"><span style=3D"font-size:11.0pt">&nbsp;</span></p>
+</div>
+<p class=3D"x_MsoNormal"><span style=3D"font-size:11.0pt">&nbsp;</span></p>
+<div>
+<div style=3D"border:none; border-top:solid #E1E1E1 1.0pt; padding:3.0pt 0i=
+n 0in 0in">
+<p class=3D"x_MsoNormal"><b><span style=3D"font-size:11.0pt; font-family:&q=
+uot;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0=
+pt; font-family:&quot;Calibri&quot;,sans-serif"> The Olivian Maintenance &l=
+t;theolivianmaint@greystar.com&gt;
+<br>
+<b>Sent:</b> Saturday, May 4, 2024 5:22 PM<br>
+<b>To:</b> Smith, Daniel &lt;DanielR.Smith@seattle.gov&gt;; The Olivian Man=
+ager &lt;theolivianmgr@greystar.com&gt;; Matthew Boehme &lt;matthew.boehme@=
+greystar.com&gt;; James Cho &lt;James.Cho@patriotfire.com&gt;; Dave Wendt &=
+lt;dave.wendt@greystar.com&gt;<br>
+<b>Subject:</b> Patriot fire </span></p>
+</div>
+</div>
+<p class=3D"x_MsoNormal">&nbsp;</p>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">Daniel,&nbsp; Thank yo=
+u again for your time and the information you&nbsp;provided on outstanding =
+Patriot issues.&nbsp;&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">James, per my inspecti=
+on yesterday these issues show that they need to be corrected.&nbsp;</span>=
+</p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">Yellow tags that show =
+completed items still yellow tagged.&nbsp; My understanding is&nbsp;that th=
+ese were to be updated within 7 days of completion.</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">Batteries that install=
+ed. 11/14/2023</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">Stairwell Pressurizati=
+on failure&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">Inadequate drain</span=
+></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">4<sup>th</sup>&nbsp;fl=
+oor device failure</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">Thank you for your pro=
+mpt&nbsp;response.&nbsp;&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">Rob</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color:black">&nbsp;</span></p>
+</div>
+<div id=3D"x_Signature">
+<p style=3D"background:white"><b><span style=3D"font-size:10.0pt; font-fami=
+ly:&quot;Calibri&quot;,sans-serif; color:#0077D4">Robert Nelson</span></b><=
+span style=3D"font-size:10.0pt; font-family:&quot;Calibri&quot;,sans-serif;=
+ color:#0070C0">&nbsp;</span><span style=3D"font-size:10.0pt; font-family:&=
+quot;Calibri&quot;,sans-serif; color:#7F7F7F">|&nbsp;Service
+ Supervisor</span><span style=3D"font-size:11.0pt; font-family:&quot;Calibr=
+i&quot;,sans-serif; color:#201F1E"></span></p>
+<p style=3D"background:white"><b><span style=3D"font-size:10.0pt; font-fami=
+ly:&quot;Calibri&quot;,sans-serif; color:#0077D4">The Olivian</span></b><sp=
+an style=3D"font-size:10.0pt; font-family:&quot;Calibri&quot;,sans-serif; c=
+olor:#0070C0">&nbsp;</span><span style=3D"font-size:10.0pt; font-family:&qu=
+ot;Calibri&quot;,sans-serif; color:#7F7F7F">|&nbsp;809
+ Olive Way|&nbsp;Seattle, WA 98101</span><span style=3D"font-size:11.0pt; f=
+ont-family:&quot;Calibri&quot;,sans-serif"></span></p>
+<p style=3D"background:white"><b><span style=3D"font-size:10.0pt; font-fami=
+ly:&quot;Calibri&quot;,sans-serif; color:#7F7F7F">O
+</span></b><span style=3D"font-size:10.0pt; font-family:&quot;Calibri&quot;=
+,sans-serif; color:#7F7F7F">206.340.0809|</span><span style=3D"font-size:10=
+.0pt; font-family:&quot;Calibri&quot;,sans-serif; color:gray">&nbsp;</span>=
+<span style=3D"font-size:10.0pt; font-family:&quot;Calibri&quot;,sans-serif=
+; color:#201F1E"><a href=3D"mailto:steven.womack@greystar.com" target=3D"_b=
+lank">Theolivianmaint@greystar.com</a></span><span style=3D"font-size:10.0p=
+t; font-family:&quot;Calibri&quot;,sans-serif; color:gray">&nbsp;|</span><s=
+pan style=3D"font-size:10.0pt; font-family:&quot;Calibri&quot;,sans-serif; =
+color:#1F497D">&nbsp;</span><b><span style=3D"font-size:10.0pt; font-family=
+:&quot;Calibri&quot;,sans-serif; color:#0077D4"><a href=3D"https://urldefen=
+se.proofpoint.com/v2/url?u=3Dhttp-3A__www.greystar.com_&amp;d=3DDwMFAw&amp;=
+c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3DhtbZ_EeeSyl7sfzdGPA=
+WbHh60GYt05ZcxFVaUTf6qAk&amp;m=3D30Z6xE4Uu7GW5ElSGXI1_OGOtLkD8uk_aMGPPin1V1=
+EF847FGOgJv9W2j8JUJMxY&amp;s=3D07C7bvm0x0kOZAONRWC60YzKr13GO3SxL9zPpJOFKJU&=
+amp;e=3D" target=3D"_blank"><span style=3D"color:#0077D4">greystar.com</spa=
+n></a></span></b><span style=3D"font-size:11.0pt; font-family:&quot;Calibri=
+&quot;,sans-serif; color:#201F1E"></span></p>
+<p class=3D"x_MsoNormal">&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+=0D=
