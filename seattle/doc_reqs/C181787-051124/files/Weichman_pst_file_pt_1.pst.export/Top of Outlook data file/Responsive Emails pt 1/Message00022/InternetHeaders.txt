@@ -1,0 +1,85 @@
+Received: from DS0PR09MB10513.namprd09.prod.outlook.com (2603:10b6:8:177::16)
+ by CO6PR09MB7829.namprd09.prod.outlook.com with HTTPS; Fri, 15 Sep 2023
+ 16:41:06 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=seattle.gov;
+Received: from SA1PR09MB8208.namprd09.prod.outlook.com (2603:10b6:806:176::22)
+ by DS0PR09MB10513.namprd09.prod.outlook.com (2603:10b6:8:177::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6792.19; Fri, 15 Sep
+ 2023 16:41:05 +0000
+Received: from SA1PR09MB8208.namprd09.prod.outlook.com
+ ([fe80::bf14:7491:d01a:9588]) by SA1PR09MB8208.namprd09.prod.outlook.com
+ ([fe80::bf14:7491:d01a:9588%7]) with mapi id 15.20.6792.021; Fri, 15 Sep 2023
+ 16:41:04 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: SCI_Boiler <SCI_Boiler@seattle.gov>
+To: "Chen, Jeffrey" <Jeffrey.Chen@seattle.gov>
+Subject: RE: Certificate Inspection Fees Due on EQP-BP-16740, 809 OLIVE WAY
+ SEATTLE, 98101
+Thread-Topic: Certificate Inspection Fees Due on EQP-BP-16740, 809 OLIVE WAY
+ SEATTLE, 98101
+Thread-Index:
+ AQHZS8I8//rjEnfJ5kG/uUVXxaL9167xPSwfgAGpQpCACxtleIABRYaAgAF6kgaAL1zzYIDqhT+OgAAh4+CAAO8zCYABgLWQgAAFx9KAABOQcA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 15 Sep 2023 16:41:04 +0000
+Message-ID:
+ <SA1PR09MB82085897406180693D332AEB95F6A@SA1PR09MB8208.namprd09.prod.outlook.com>
+References:
+ <DM6PR09MB592873B754E1F5300EAF5E3FA0AC9@DM6PR09MB5928.namprd09.prod.outlook.com>
+ <SN6PR05MB447789DF2C7ABF4C151883A7B2B49@SN6PR05MB4477.namprd05.prod.outlook.com>
+ <CO6PR09MB7639FF41C523C587C79F23959DB59@CO6PR09MB7639.namprd09.prod.outlook.com>
+ <SN6PR05MB44770A8076A55238141DC9DFB2BC9@SN6PR05MB4477.namprd05.prod.outlook.com>
+ <CO6PR09MB76394C8F40D1AE2B083A96399DBD9@CO6PR09MB7639.namprd09.prod.outlook.com>
+ <SN6PR05MB4477570A9E364240192C281FB2829@SN6PR05MB4477.namprd05.prod.outlook.com>
+ <SA1PR09MB8208172A85EAED8364CD0F62959C9@SA1PR09MB8208.namprd09.prod.outlook.com>
+ <IA1PR05MB89453FEA4DB13F89B5DEB1CCB2F0A@IA1PR05MB8945.namprd05.prod.outlook.com>
+ <SA1PR09MB8208C99463F9B6B916A7EDB895F7A@SA1PR09MB8208.namprd09.prod.outlook.com>
+ <IA1PR05MB89453ABFBA050C53D31A4361B2F7A@IA1PR05MB8945.namprd05.prod.outlook.com>
+ <SA1PR09MB8208EE0C96328100E293EE5595F6A@SA1PR09MB8208.namprd09.prod.outlook.com>
+ <CO6PR09MB78291EE5886E83660862C2F69BF6A@CO6PR09MB7829.namprd09.prod.outlook.com>
+In-Reply-To:
+ <CO6PR09MB78291EE5886E83660862C2F69BF6A@CO6PR09MB7829.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <SA1PR09MB82085897406180693D332AEB95F6A@SA1PR09MB8208.namprd09.prod.outlook.com>
+msip_labels:
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: SA1PR09MB8208.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ c005ae90-132b-4560-5c51-08dbb60a8ddd
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ SA1PR09MB8208:EE_|DS0PR09MB10513:EE_|CO6PR09MB7829:EE_
+Return-Path: SCI_Boiler@seattle.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 15 Sep 2023 16:41:05.3068
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: c005ae90-132b-4560-5c51-08dbb60a8ddd
+X-MS-Exchange-SharedMailbox-RoutingAgent-Processed: True
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SA1PR09MB8208.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Sep 2023 16:41:04.8513
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource: SA1PR09MB8208.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: c005ae90-132b-4560-5c51-08dbb60a8ddd
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DS0PR09MB10513
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.7817840
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6792.018
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	G/r5s9EvRZyasb/h2IPo/WqTH3RhKNCyzkYF7v+Yjjj0gJ6j3cCB3My8aXC/YIrFF8XKi/MHNRcucvUsHb3jyYbu0S4g9Iz5g+0uzsjtKWCzrkAY0F6L6xYbDtVy0LQXThNhepjWCbJ09dR5XFo19vlzOr9um9jkBjhRLT6ef+9MADNVj5vCBlura6+nwrWv8PMdKtTlAAds+jzx8g00WfMYXDkkTxDXiO3YbVMa1TKXSPFoeBM02v/soaG2lpa55oMWRxDuFEdI3VXWtRswcXVlGeu80Z0wN45V6HMV/AohXYdMgMTcscX8aJoNl87pKRyk20xxnoe8A8lamxJQf7PXyo+2MDI27fiXqrFFvLvEfQAPqxoSxH2lVTAnxMv7hDX6yts1w9gdYzOTGU5DCV+vtgXDtKPMMjn4InWp7RSTxk2+3MwVVNTtOfPI3fcStZb0tpvTssLzszO+HuG99tXoCiEWafemgdwDj7KnUGG0eVGVRw3f9nE4P0tqW/zBMOlvPv5E2VA1abBGxbk9fs+TJd/jhFVKKNHqICcUaTrNHGviB3zbz9vQiZfZqRfyrqJlEzNv3pB4Ygcdo3sBqUfqsB7WfYiFa0EmOUw9OqlFpvp4sfafewv5Bqyo4k53hz9KKnvIAMRWjeYgCu4VPo3UwZfWWtAcPcLh2LB8RfhhG/Irt93bD0mkWx9atmrVIY5C5ctB7rTyfHZW8ROIgY4P0j0s6ddt+VFg6T2Ob1R6dNg25H8DUmrU1DzLRdNakfIDlUZTwKZXyvSrnaZKGeivbr3f0/YBTYiBpcL1oN8=

@@ -1,0 +1,6 @@
+Display name:		Hou, Kevin
+Recipient display name:	Hou, Kevin
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b10ee3d2aa3c4a6e8668388ce928bbbc-houk
+Address type:		EX
+Recipient type:		To
+

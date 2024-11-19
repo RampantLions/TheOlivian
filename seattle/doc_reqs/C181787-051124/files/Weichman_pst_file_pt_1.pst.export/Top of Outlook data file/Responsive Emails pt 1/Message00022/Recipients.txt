@@ -1,0 +1,6 @@
+Display name:		Chen, Jeffrey
+Recipient display name:	Chen, Jeffrey
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fe6b129153ab461c9bbed422899150e6-ChenJ1
+Address type:		EX
+Recipient type:		To
+

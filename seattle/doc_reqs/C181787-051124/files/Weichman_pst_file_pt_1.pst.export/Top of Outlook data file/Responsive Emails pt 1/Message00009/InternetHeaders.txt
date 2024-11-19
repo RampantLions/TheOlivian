@@ -1,0 +1,75 @@
+Received: from BLAPR09MB6595.namprd09.prod.outlook.com (2603:10b6:208:2a0::18)
+ by DM8PR09MB6293.namprd09.prod.outlook.com with HTTPS; Wed, 29 Nov 2023
+ 16:09:30 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=seattle.gov;
+Received: from SJ0PR09MB10438.namprd09.prod.outlook.com
+ (2603:10b6:a03:50f::17) by BLAPR09MB6595.namprd09.prod.outlook.com
+ (2603:10b6:208:2a0::18) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7046.23; Wed, 29 Nov
+ 2023 16:09:25 +0000
+Received: from SJ0PR09MB10438.namprd09.prod.outlook.com
+ ([fe80::cb98:f601:dbc7:9e69]) by SJ0PR09MB10438.namprd09.prod.outlook.com
+ ([fe80::cb98:f601:dbc7:9e69%4]) with mapi id 15.20.7046.023; Wed, 29 Nov 2023
+ 16:09:25 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "Taylor-Reed, Yvonne" <Yvonne.Taylor-Reed@seattle.gov>
+To: "Jones, Lynda" <Lynda.Jones3@seattle.gov>, "Daniels, Crystal"
+	<Crystal.Daniels@seattle.gov>, "Brown, Jordyn" <Jordyn.Brown@seattle.gov>
+CC: "Washington, Stella" <Stella.Washington@seattle.gov>
+Subject: RE: Record ID: 013531-23CP - 809 Olive Way - J Wiechman - HBMC
+ INSPECTION REQUEST
+Thread-Topic: Record ID: 013531-23CP - 809 Olive Way - J Wiechman - HBMC
+ INSPECTION REQUEST
+Thread-Index: AdoaXNZH4UAEF7smTi+2b3gmyCc7RAHqhsEgADP+I4AAAd8sQA==
+Date: Wed, 29 Nov 2023 16:09:25 +0000
+Message-ID:
+ <SJ0PR09MB1043838F14F7CE90E1AE3557ED983A@SJ0PR09MB10438.namprd09.prod.outlook.com>
+References:
+ <CO6PR09MB7767747A765A045998EC49B7E1B6A@CO6PR09MB7767.namprd09.prod.outlook.com>
+ <DM8PR09MB6293A7AA4D6B4D72F227C032E0BCA@DM8PR09MB6293.namprd09.prod.outlook.com>
+ <CO6PR09MB847216A8C2324F5268BFA2AFCA83A@CO6PR09MB8472.namprd09.prod.outlook.com>
+In-Reply-To:
+ <CO6PR09MB847216A8C2324F5268BFA2AFCA83A@CO6PR09MB8472.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <SJ0PR09MB1043838F14F7CE90E1AE3557ED983A@SJ0PR09MB10438.namprd09.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource:
+ SJ0PR09MB10438.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ 903f4d8b-08f5-46c9-d76c-08dbf0f58e83
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ SJ0PR09MB10438:EE_|BLAPR09MB6595:EE_|DM8PR09MB6293:EE_
+Return-Path: Yvonne.Taylor-Reed@seattle.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 29 Nov 2023 16:09:25.6392
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: 903f4d8b-08f5-46c9-d76c-08dbf0f58e83
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SJ0PR09MB10438.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Nov 2023 16:09:25.0943
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource: SJ0PR09MB10438.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: 903f4d8b-08f5-46c9-d76c-08dbf0f58e83
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLAPR09MB6595
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:05.3860874
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7046.024
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	Z8QhjiAkiErYOfkYU396xw/h+yddn4z7lqC/uyL/4HWK9O5lGuyB8O0drxXnYlRFpcf4Go8WGobn2PU7IEMe2C1sdT3gY7CmGNjxqxRfcnDUnos9DXAcXHXZOC+l8K2BiMdd9xpaPJD8EGVfI5OGBcMPExYzH3O1R5ISY2qmoSiM+lOOCcACqdz5kLsyY/3nWZ5/pGOS9bB9IZrTb1yUW1z8pmfNDS5cFSOSPEomAJFDxlykeWvot7s3A6vp5ltiJQKX+LE12veezOHuM4MW5Hj+plVHifmqvMg+LGOtr1MoE1f7nfYH3H5Jgtl9ROiokDoolI0EaljE6QV3JJNPT2qlOarcJB0c/i7nCUPR7Kz8GRDTDIbUviKnd2e4meD8gCbON1Y1vnqAp/0zUU7X4jOO/O8WyXPU+B5ixqXKtCCuNJEHY2+eDQbhh4tKOi9Z978Jo4lkQSsD0s+TUiw2tqtTI2LODd19438LU37vrUupz+1ORpmzIEeAKBLqusFJFHhyGLqnbjjd1OlLvzwKtjmnBrnoBb1L+fjqs3xuhOhkescW02vZeFg8IO9QkEsqNTXktwdGgZ1tTjZpXRZWb7KfmaalvZrVdOTDUNOBHJ5yFRyl3W4g3nh7xwJLAgyJ0OpcFInvUphT2l6X24RZbnsrkITZx0pQkXX80Hk6V4Znd/Hg9MK/AT9n1lAK3Mejtgp6C7oam31P7T/PTixpD7kzS3mA7jTbEfaN4rvMKIpxAiqpBN3fkuqRy1QvPHgu

@@ -1,0 +1,15 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					53206
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			NOV 1058342-VI 809 OLIVE WAY
+Subject:				RE: NOV 1058342-VI 809 OLIVE WAY
+Sender name:				Brunner, Pamela (SCI)
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5BDAE3FC76A7424C96DBDBF49A388448-020323BA-08
+Sent representing name:			Brunner, Pamela (SCI)
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5BDAE3FC76A7424C96DBDBF49A388448-020323BA-08
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

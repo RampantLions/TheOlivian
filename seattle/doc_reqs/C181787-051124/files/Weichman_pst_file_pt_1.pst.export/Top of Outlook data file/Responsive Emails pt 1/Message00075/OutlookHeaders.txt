@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					20900891
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Urgent Compliance and Investigation Required for The Olivian Apartments
+Subject:				Urgent Compliance and Investigation Required for The Olivian Apartments
+Sender name:				Josh Wiechman
+Sender email address:			josh.wiechman@gmail.com
+Sent representing name:			Josh Wiechman
+Sent representing email address:	josh.wiechman@gmail.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

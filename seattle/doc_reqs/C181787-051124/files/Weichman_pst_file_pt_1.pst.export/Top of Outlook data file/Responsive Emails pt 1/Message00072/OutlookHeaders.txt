@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					419485
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Record ID: 013531-23CP - 809 Olive Way #1105 - J Wiechman - DOCUMENT REQUEST
+Subject:				Re: Record ID: 013531-23CP - 809 Olive Way #1105 - J Wiechman - DOCUMENT REQUEST
+Sender name:				Josh Wiechman
+Sender email address:			josh.wiechman@gmail.com
+Sent representing name:			Josh Wiechman
+Sent representing email address:	josh.wiechman@gmail.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

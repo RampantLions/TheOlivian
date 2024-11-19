@@ -1,0 +1,10 @@
+Display name:		Tallent, Geoff
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fae87cd722bf4b778d371dd40a182100-TallenG
+Address type:		EX
+Recipient type:		To
+
+Display name:		Roat, Maureen
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=004ceca61cb042b9974c0d2ce314c6d2-RoatM
+Address type:		EX
+Recipient type:		CC
+

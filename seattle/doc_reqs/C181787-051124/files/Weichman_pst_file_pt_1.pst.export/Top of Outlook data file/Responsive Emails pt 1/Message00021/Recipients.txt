@@ -1,0 +1,12 @@
+Display name:		The Olivian Assistant Manager
+Recipient display name:	The Olivian Assistant Manager
+Email address:		theolivianamgr@greystar.com
+Address type:		SMTP
+Recipient type:		To
+
+Display name:		Chen, Jeffrey
+Recipient display name:	Chen, Jeffrey
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fe6b129153ab461c9bbed422899150e6-ChenJ1
+Address type:		EX
+Recipient type:		CC
+

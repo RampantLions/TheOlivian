@@ -1,0 +1,6 @@
+Display name:		Harris, Jess
+Recipient display name:	Harris, Jess
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=28083b75884d42f591053fcbebb88399-harrisje
+Address type:		EX
+Recipient type:		To
+

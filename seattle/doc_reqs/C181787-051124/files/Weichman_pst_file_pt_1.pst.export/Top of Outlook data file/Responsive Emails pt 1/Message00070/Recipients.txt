@@ -1,0 +1,6 @@
+Display name:		Washington, Stella
+Recipient display name:	Washington, Stella
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fcf507a375ee4e40ac13e77b6a539561-WashinS
+Address type:		EX
+Recipient type:		To
+

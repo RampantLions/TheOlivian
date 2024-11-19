@@ -1,0 +1,290 @@
+Received: from PH8PR09MB9625.namprd09.prod.outlook.com (2603:10b6:510:17c::22)
+ by CO6PR09MB7477.namprd09.prod.outlook.com with HTTPS; Sat, 18 Mar 2023
+ 15:19:11 +0000
+ARC-Seal: i=3; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
+ b=EghCHgSu9ANaHcLKHkrpZVqaOh85J+4Q3EoZ3bvyWPf3N4QVl6jDLEV6I5ck0j2iwFISe6TrebGZ9OMo+9gydF5CG6ScuH25veiJSlKWT8Pg25cDEOkb9HiAyQMBFJRTg2K7GollQd188q0qBhC/fzJ7aeuv7TEpHsaBOChVdbVuQo+V5CamI1Iai3pfk5tNV3lEWRXslfu2FnBVZHh6PeKLsbtlxaXj32PI/ApPCMAbawngtEa1z8B60FNKNnuynC8EUfOQSo7HU9BuOOSZYytdrcxiDRikX7fURb+N6EdgFgrso9x07Yp7olnda1rf9Cxl8Czfjpzcuy0ij4lbMw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=ngVC/jsKn+UIob02fJZPfXIz0wczWXLfYWUkK37p1/Q=;
+ b=mdhY4bv9joIWXWRse+p5HvvxLOKPrn1SgAY3KdcM1bc/5a9TVMHcQQBD76cyCvKMdT5uXIGTm33Vv84zhAYKpD28fcmY/ujb0xZbR+zqgcRim2wBd/Mtlo6CUvlQLGzUkBoaWikaXjyavgdJgQ9E/6UlASgRTGnlcmtuccQd3oP75W5MRgrTit/LFL2/28DsVGvPDs2avUYUA+i23Rht55lDUOCGHZvsbh9ECZxEUY0xVXCtNFRJM8q+CkEehGhw0q8P24D5DUZ/tPImQQmjguzGlJNpHdmV2XusQ6rlq4t0BEdb0YW6BKUHl2iMBS3TicnD/BqwW2Hih9l9SkDh/A==
+ARC-Authentication-Results: i=3; mx.microsoft.com 1; spf=fail (sender ip is
+ 15.200.32.128) smtp.rcpttodomain=seattle.gov smtp.mailfrom=greystar.com;
+ dmarc=fail (p=none sp=none pct=100) action=none header.from=greystar.com;
+ dkim=fail (body hash did not verify) header.d=greystar365.onmicrosoft.com;
+ arc=fail (47)
+Received: from BN3PR09CA0043.namprd09.prod.outlook.com (2603:10b6:400:3::11)
+ by PH8PR09MB9625.namprd09.prod.outlook.com (2603:10b6:510:17c::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6178.36; Sat, 18 Mar
+ 2023 15:19:08 +0000
+Received: from BL0GCC02FT012.eop-gcc02.prod.protection.outlook.com
+ (2a01:111:f400:7d05::207) by BN3PR09CA0043.outlook.office365.com
+ (2603:10b6:400:3::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6178.36 via Frontend
+ Transport; Sat, 18 Mar 2023 15:19:08 +0000
+Authentication-Results: spf=fail (sender IP is 15.200.32.128)
+ smtp.mailfrom=greystar.com; dkim=fail (body hash did not verify)
+ header.d=Greystar365.onmicrosoft.com;dmarc=fail action=none
+ header.from=greystar.com;compauth=none reason=405
+Received-SPF: Fail (protection.outlook.com: domain of greystar.com does not
+ designate 15.200.32.128 as permitted sender) receiver=protection.outlook.com;
+ client-ip=15.200.32.128; helo=mx.us.email.fireeyegov.com;
+Received: from mx.us.email.fireeyegov.com (15.200.32.128) by
+ BL0GCC02FT012.mail.protection.outlook.com (10.97.10.143) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6222.11 via Frontend Transport; Sat, 18 Mar 2023 15:19:07 +0000
+Return-Path: theolivianamgr@greystar.com
+Received: from [127.0.0.1] ([127.0.0.1:53184] helo=smtp-injection-worker)
+	by etp-prd10-03 (envelope-from <theolivianamgr@greystar.com>)
+	(ecelerity 4.3.1.999 r(:)) with ESMTPS (cipher=ECDHE-RSA-AES128-GCM-SHA256) 
+	id 9C/3F-09252-B66D5146; Sat, 18 Mar 2023 15:19:07 +0000
+X-FE-ETP-SENDER-IP: 104.47.64.100
+X-FE-ETP-CONNECTING-IP: 104.47.64.100
+Received: from GCC02-BL0-obe.outbound.protection.outlook.com (mail-bl2gcc02lp2100.outbound.protection.outlook.com [104.47.64.100])
+	by etp-prd10-09 (envelope-from <theolivianamgr@greystar.com>)
+	FireEye ETP with ESMTPS (cipher=ECDHE-RSA-AES256-GCM-SHA384)
+	id 3yP1x2D-20009-10232809034766D5146079e00ed; batch_id 23/28-09034-766D5146; Sat, 18 Mar 2023 15:19:04 +0000 (UTC)
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=gJ2mAGCHQ/xjlVbyXK0OJlM7d52PEMy7l91NyARaGF8WndRigEX2Z642qfy+osR5M0DrW+Gzav2MZg7/cuGnMxzeiLzKgMUZTEJWi8ds+uS6nqmpZgVC+WADdNT7qA61Ao4I3U3rXya7BpIx5PjYWTP41FXFyrtVz16Vj7xaWS3lqyJ5qPDWLbzHizxqllYKm+howuKGX9PYyOYcMDSDs4Yt+Ip1T6G1Cd4ghiZCG+xFsxvvQSymm33qJFHUGzC8EUzi60UbuyAiAEHACmw8JoVY88AYVXaxl6HsocDE4l2mxDLUhtc2nkEDrdeXOlVKee3dUCdQ0TiDPzJrwvNg4Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=2yFmcysLB6Jb1zzQRB1aj1yUa+RAkXQAQkLzGERAG5c=;
+ b=Hm+932YKCNNwcr/moUpNP0aT6dv5oIvbo8AHM3YnBY18BGxCsVbAJ0ay/J4OAlHwTGPUg8qYyosvijf8yeT41kV4E6pRnia78ACvAa5wyoCMY3wtobYaWMq7W0gcI1CK9nLHo5lJTEHXIeW9+Rlkv0LCio8XPTPFy04TBtC0JO5l+S+NaCqazYiYm5gYRSpvFplvDmfI2AbWTI8HRE+qpclcNfAiqMyTaBO01TaAyVm/WU3jkO39lxBmBPbg3mLcYsOP6b1/V1r0Gc7wt1HKfwZDzflbW6etXzjXdVgFYXeien7zpN3c/4EweBV+SzjNTW/H4POhWjqY75vRaLeLFg==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=pass (sender ip is
+ 52.101.64.25) smtp.rcpttodomain=seattle.gov smtp.mailfrom=greystar.com;
+ dmarc=pass (p=none sp=none pct=100) action=none header.from=greystar.com;
+ dkim=pass (signature was verified) header.d=greystar365.onmicrosoft.com;
+ arc=pass (0 oda=1 ltdi=1 spf=[1,1,smtp.mailfrom=greystar.com]
+ dkim=[1,1,header.d=greystar.com] dmarc=[1,1,header.from=greystar.com])
+Received: from BN6PR09CA0091.namprd09.prod.outlook.com (2603:10b6:404:dc::29)
+ by PH8PR09MB9484.namprd09.prod.outlook.com (2603:10b6:510:18f::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6178.36; Sat, 18 Mar
+ 2023 15:18:23 +0000
+Received: from BL0GCC02FT005.eop-gcc02.prod.protection.outlook.com
+ (2a01:111:f400:7d05::208) by BN6PR09CA0091.outlook.office365.com
+ (2603:10b6:404:dc::29) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6178.36 via Frontend
+ Transport; Sat, 18 Mar 2023 15:18:23 +0000
+Authentication-Results-Original: spf=pass (sender IP is 52.101.64.25)
+ smtp.mailfrom=greystar.com; dkim=pass (signature was verified)
+ header.d=Greystar365.onmicrosoft.com;dmarc=pass action=none
+ header.from=greystar.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of greystar.com designates
+ 52.101.64.25 as permitted sender) receiver=protection.outlook.com;
+ client-ip=52.101.64.25;
+ helo=DM4PR02CU002-vft-obe.outbound.protection.outlook.com; pr=C
+Received: from DM4PR02CU002-vft-obe.outbound.protection.outlook.com
+ (52.101.64.25) by BL0GCC02FT005.mail.protection.outlook.com (10.97.10.166)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6222.11 via Frontend
+ Transport; Sat, 18 Mar 2023 15:18:22 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=bqDOmsQHP5tTrlNyG3TMPAiKPc5ZNaTaWQJduoZ1961zSzNVuWP7TT2FPCqJvz88SrW2tEbMyyc3K4NkJ8T2foX8F6X35t2odCXyBrG05DxG53mUNqaYCwX8Tws7gDuAKZ323a+wEBDtWHeqSaDE97Zf0fuwclfpXz3WG/XMVIOMsQcPis9wfwjhgGJVf0clW1sFlZ7++VVTv4RNRB8BPSxgqFTRybu9/8BG+SCCPYiVeT3L4rdlUPMFQc262Lk1exURcyhxQgn6t+th1oO0jZnoHQt3unnRdALVnaTjGi0WuMyGd25aK7M43ZMUv6lJpgpA0AImoOtlLXU6twpLhQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=2yFmcysLB6Jb1zzQRB1aj1yUa+RAkXQAQkLzGERAG5c=;
+ b=ABZTvOU7PZpRJx7204//qzUfMfTpm2RXa+Ug0WKE0z76ELfiaM0vw40hR3d3H1TTc6AFLlK0ekm+qlR7daGSU4F4fQe976n0BlzqE1+MIFXyxdbKZm/ZbeYGu8cRZTM9MJQ64n8/Bnllq9c8K6ViVzKiu3SF6T44PZlN1EDO3hVTbcdyQmOCOAbwOUt/vDFaWOuGxqs7a0L9oYoZ3qjj1kJxILnmcCJDND77XV9cj5ouZUq5EEN/LROR2hz8hsHHIUmDzQAjBv/wMsiL9eQH+sOnTvKOaMfaI9maiYUauzcax5LC/faYoM8t9Gs+DQxt5Fgzn93EDztKYW0ivSx+ug==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=greystar.com; dmarc=pass action=none header.from=greystar.com;
+ dkim=pass header.d=greystar.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=Greystar365.onmicrosoft.com; s=selector1-Greystar365-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=2yFmcysLB6Jb1zzQRB1aj1yUa+RAkXQAQkLzGERAG5c=;
+ b=ireUanS6e9C1UN/xc8tdKJ8XheAhIn5x7EikqWQv1ppSl4VDLHFl7f/xX0eIBdEjpD/HJ+YAoR8q8HG9WEQ7iz3iyIMySyuHhaqm7WnY0yI8KsBxMYkwjVqb19lrd+Rk/uQ5P7nNmMgsR2JeJXtUi1jF/DCN6T3PrLAbGRhBN3I=
+Received: from SN6PR05MB4477.namprd05.prod.outlook.com (2603:10b6:805:3a::30)
+ by SN6PR05MB4590.namprd05.prod.outlook.com (2603:10b6:805:2c::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6178.35; Sat, 18 Mar
+ 2023 15:18:21 +0000
+Received: from SN6PR05MB4477.namprd05.prod.outlook.com
+ ([fe80::ab4b:8eee:2538:5be8]) by SN6PR05MB4477.namprd05.prod.outlook.com
+ ([fe80::ab4b:8eee:2538:5be8%7]) with mapi id 15.20.6178.029; Sat, 18 Mar 2023
+ 15:18:21 +0000
+From: The Olivian Assistant Manager <theolivianamgr@greystar.com>
+To: "sci_boiler@seattle.gov" <sci_boiler@seattle.gov>
+Subject: Re: Certificate Inspection Fees Due on EQP-BP-16740, 809 OLIVE WAY
+ SEATTLE, 98101
+Thread-Topic: Certificate Inspection Fees Due on EQP-BP-16740, 809 OLIVE WAY
+ SEATTLE, 98101
+Thread-Index: AQHZS8I8//rjEnfJ5kG/uUVXxaL9167xPSwfgAGpQpCACxtleIABRYaAgAF6kgY=
+Date: Sat, 18 Mar 2023 15:18:20 +0000
+Message-ID:
+ <SN6PR05MB4477570A9E364240192C281FB2829@SN6PR05MB4477.namprd05.prod.outlook.com>
+References:
+ <DM6PR09MB592873B754E1F5300EAF5E3FA0AC9@DM6PR09MB5928.namprd09.prod.outlook.com>
+ <SN6PR05MB447789DF2C7ABF4C151883A7B2B49@SN6PR05MB4477.namprd05.prod.outlook.com>
+ <CO6PR09MB7639FF41C523C587C79F23959DB59@CO6PR09MB7639.namprd09.prod.outlook.com>
+ <SN6PR05MB44770A8076A55238141DC9DFB2BC9@SN6PR05MB4477.namprd05.prod.outlook.com>
+ <CO6PR09MB76394C8F40D1AE2B083A96399DBD9@CO6PR09MB7639.namprd09.prod.outlook.com>
+In-Reply-To:
+ <CO6PR09MB76394C8F40D1AE2B083A96399DBD9@CO6PR09MB7639.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+Authentication-Results-Original: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=greystar.com;
+x-ms-traffictypediagnostic:
+ SN6PR05MB4477:EE_|SN6PR05MB4590:EE_|BL0GCC02FT005:EE_|PH8PR09MB9484:EE_|BL0GCC02FT012:EE_|PH8PR09MB9625:EE_
+X-MS-Office365-Filtering-Correlation-Id: 0b81dde6-d48e-43d1-d2f8-08db27c41e82
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original:
+ 2mnVAwtCJ0QiriCFYrjBP1BH28wN0bnpyR2XrERwjGnYRRUXnEXateqolNyDs8mqK/hrTc91aHtVKgPKAcRkbSPOpfGEozE2rfPGnI8wUtRbI34dffdpjaXqX03ZlsjvGjmyQosmJbamEmHLvzfQS0Cl9mwPtepGjAwO8exD7zR4bDcSIzbIjt0WfqPuzy45W+68guQ2bMsOM5LA+XGCfCE17j4XL/0CsUp6Gf4lvQqRFVaFFErmtSL0ciAf+ad8k+7MeSb0Iv4g0M80VdvB64aO7sigt6SKYs9xZI2igPR9qtVWz5aeZ1EM0HfcP4bLjFgwUbvQznmHTsWTJCqcHPuZejYM6KfPtgbI6wBMOoAf7SL8NfuuIQKFvwNSGf1OOUcO2x+l0tyDC/gUlernrJFIxRF1nnFBQWVDDC+yVoZQw78CJbyD8S8Pmk+nfQUwJMzymnScCLFl2ESZnbsNovIQz+Ig47Vt5drTMJ6wesPZf7KVZ6en5pL7Gr1ZTU7WeZ2TqbHswMeDQfNGa6UmsGNB28JHB6c9NaeZ0zDT+t3zfEVmwnVj6cr1CQD7uUMLM7UHz4JwYg/n9YLuyJF8G5diFkh4hyzdhA78upK5TIo9ARFLLONoNDV/SSgFAPnIURvLLkP/vWkuCIMyNBRTOO/B3p3VqkHa3kttR8fipaFfXNvq8V4CdO+m7Y4IOMdu
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SN6PR05MB4477.namprd05.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230025)(4636009)(376002)(39860400002)(366004)(346002)(136003)(396003)(1690799011)(451199018)(478600001)(316002)(966005)(7696005)(6506007)(55016003)(71200400001)(9686003)(53546011)(83380400001)(8936002)(86362001)(5660300002)(122000001)(41300700001)(33656002)(52536014)(186003)(2906002)(64756008)(66446008)(66556008)(6916009)(38100700002)(66946007)(91956017)(76116006)(8676002)(66899018)(38070700005)(40140700001)(166002)(19627405001)(66476007)(19627235002);DIR:OUT;SFP:1102;
+X-MS-Exchange-AntiSpam-MessageData-Original-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-Original-0:
+ =?Windows-1252?Q?lfrUhYBTdLaPwyKkRjvATvnact1yeKk6YhTuXA4+mW7vU083Yelycc3D?=
+ =?Windows-1252?Q?nLIaHT7pudD3fBIxD4guX9y5NjqaWuD0mD6ajzXzKW1uEVIBy5OXr8W4?=
+ =?Windows-1252?Q?w2C7upyurUgP+lvc3akK2TTAsPjIrkVuwBYzuOt91BAwJfYIrwzTnImJ?=
+ =?Windows-1252?Q?zu7eynP8/D1ZwfcVT8RGuMnxQoU46y1ADgVQyYgdoiw7NCKlKqJNm03C?=
+ =?Windows-1252?Q?JmLCQFb6ess0ZLnIu4mkg0BZseWcTvCo0933KVArBTqAkzR9ka+xhiC7?=
+ =?Windows-1252?Q?BZ2HX5xk+aLGHYN5efZl+lsQULwrn004MFVT0OqftA8JkgoH9sG5YrQd?=
+ =?Windows-1252?Q?spvfbjZxsBseQF5fbHpIHPayyJx/rQSxQoz7eW6L9I6OyHVDMGrDLwFJ?=
+ =?Windows-1252?Q?gn8HQk6NLwo1L63vRt/HQpDabq7WwAuBNaHYrcICoLV2RxPYPqPyyzmX?=
+ =?Windows-1252?Q?a0Xp7dIcUNp2ZjuinWhVNshzL0M1B4oz1hqHzi7xWT8aMIlzqAr9Mfwu?=
+ =?Windows-1252?Q?azd+3LAAptLParCW64E+8eL5zOeJ/rp10gi6FK6p401C0j0iOmegoGUB?=
+ =?Windows-1252?Q?rFZgrQw/PUybBZLBC+k5Fgnox9w6Ql7RjVkaRuP5O5bgXkwbj32j8iIl?=
+ =?Windows-1252?Q?jDoTg7q/YcVKX13g6XbUwNAcLPssFUqksMD5gbkEHclTK0jH6ZMNNrCc?=
+ =?Windows-1252?Q?dBctGSHDrXfEkLcMULZuGpsoGpKf8uy2x3esXpQ7Cn1RzqN6pewC7IZn?=
+ =?Windows-1252?Q?o90lrHgD9zreIvWFHqoUYlw232/4tRdg5+IUuaGaxOFdOAuR7QcRLaNK?=
+ =?Windows-1252?Q?yKJW7gMOIwIwqtagmKyVEGAjj9SrvC9I5tXo0Mam7VxKTBWv1n/ARbGG?=
+ =?Windows-1252?Q?JCRjh41vhWp6LYEgHYChTIXJw24x4D68hclPuuAZBdsxxmVK52Wjnnd3?=
+ =?Windows-1252?Q?2h51odWqhZQp0ItOHIsJoUW+ZpnXiYM4B5t+xjyaJA7kfbK+SeWKc88+?=
+ =?Windows-1252?Q?1ougIpb2zhFLsKl2uCNvKOTo7ReP6WbT4YGylZXYkhGyD229lN2y9wFQ?=
+ =?Windows-1252?Q?x50dHLT65a9m1mgOxBdm1XFMGjFGaZ3uXX8OeqWJWEE0/d78KMQZs9Zt?=
+ =?Windows-1252?Q?0a5gkVa0D0c+lCoMuxdmFZdKAcIxRXdLPhV9xIHT4R0y/pVlay6Zh5fn?=
+ =?Windows-1252?Q?KaGIlhjNjT1RoehpAanQyuHTMOKTu0vtc5mriGq9u1MsUi82G3KaQZf2?=
+ =?Windows-1252?Q?EW8okbmMJh62gfyJEbyvzaZMI9xDKpgdPCSDouLnsHE2JE3xnLLoij1O?=
+ =?Windows-1252?Q?0xP2OszzhRBs8RkHtuO1AlEtxXGzbv8I/s69vHsSJ3n+4iMclVGCDneI?=
+ =?Windows-1252?Q?sdc4Yn5gDn4MX8kz4X7fZvRPRgFn5QwodtzbuFMcwHkbuvLezaShP9jD?=
+ =?Windows-1252?Q?skbTnuT339WZonGO+sUF3nUtCyniu9ReVf5Qx/eVB963hehIMmxiJgL0?=
+ =?Windows-1252?Q?5XFVsAjxgwO0+4DeCgfSvJfDvN4GhGP4USM32RRGcAR6Tzs5/8uJzhc3?=
+ =?Windows-1252?Q?BXYo8dYp06o8w75AbkBf3OZKQEgNyQ6zHYjD2QM2HLAw88T7dQjICne3?=
+ =?Windows-1252?Q?QHcunNj7RcnD+cK0OMWMWdCcZHa8FTF9sZdK3YMRtzNo9gGnP9UoeoDL?=
+ =?Windows-1252?Q?oHOyAGOXHLRj7tZwniwDaOAqBQabBLMIpwMcEsdOv21xJWmsRxfPFvyP?=
+ =?Windows-1252?Q?Zz42jzLJ+Y5xGWV+Wa4Y7ziifo5aENoci2x+hWd1XdHQFf/GmWnWtgrv?=
+ =?Windows-1252?Q?ZXuVVQ=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR05MB4477570A9E364240192C281FB2829SN6PR05MB4477namp_"
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR05MB4590
+X-EOPAttributedMessage: 1
+X-EOPTenantAttributedMessage: 78e61e45-6beb-4009-8f99-359d8b54f41b:1
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ BL0GCC02FT005.eop-gcc02.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted:
+ BL0GCC02FT005.eop-gcc02.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ d60c7812-f873-40e2-23bf-08db27c40258
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original:
+ =?us-ascii?Q?XvQZU9ePuQk9EZrpgzFivWBLXRSMCicr7eCOeVHKBjLQDXkJq5nEedn+Hyr4?=
+ =?us-ascii?Q?TjxGXSKvAZfK2lIiLR+/iFBTzgHYrUSzl7ZvDM/T9XlYKvrJuIM8OlVJv1MC?=
+ =?us-ascii?Q?btLPzZuHLTxtTw7RIFqfgZJGPl0F23MWSrz70qZzlO7qCmIoxRf0qk3jMTxv?=
+ =?us-ascii?Q?aa3EowM5Fap+eFuOTZS9MvR245j9KNSXzzOTPxJgOSxqLPIOfShEGREbiMua?=
+ =?us-ascii?Q?viv6tB65csY6H8OraVbYAwlRZjmA7oq9yeRxNSvUeCqN91OJrUcLNLfnNvr0?=
+ =?us-ascii?Q?pf9jld6YWSKdhhUup4qlj0FoZyF/Ownfh4rVFY2DHgkvMEHMmNPbXS7I1rs8?=
+ =?us-ascii?Q?vAzsTM3z0eF4jnRo7TvFshWfOu7imSvcaR6Yt8hFhqT50VpKUJN1ttI8OLQh?=
+ =?us-ascii?Q?XXqv5b2iesQujRGfJXQ3f4wn/Tl2qRSiDuODSYtsUYh4Jd4tz1vQQ1NFhrMO?=
+ =?us-ascii?Q?3KxEPnw2mgnQdv6uYqM9CUzJVuCe5R7Trsgv2DkYq/QQiGEaqlB1AXzYEA9p?=
+ =?us-ascii?Q?Sf7GeIPtqQeWWJtv54DH//xbxgqMObZxEHLuoZ1cfGOhXb7O0paQkzeoryql?=
+ =?us-ascii?Q?69wyYdYdy7196baFb8A9dGNNr0uUUgwdj9nIcnV1OHWotDvD/Re/HL+KCDpt?=
+ =?us-ascii?Q?UwCgR28GvePn9mUgaLH6Cq2A6Z/MU3VKtsVxhbGpCa+0PlHGi3pf45R1iytw?=
+ =?us-ascii?Q?3O3ZjYObCNIFqG74XI4ntrPvv4uoTDPaWHopqHTxKPXzRUVEyPrOZSYHOKa1?=
+ =?us-ascii?Q?Q6s8YR87EMjUNfvaXrN8eHTRinGv8gBnbpZ1K6eZEGXaKx0DC5EXr23imkgg?=
+ =?us-ascii?Q?7iHOsGtK4aOEssedC7sOzQiwg0UH66yIrroYoRaS6Zk4X6B6GyO3SnnUDyvf?=
+ =?us-ascii?Q?2A0txIe4cSI/vS5LoG1CVDdxvGKSg7ICfzVboi77k5YF9N3xbBr4pAk9hkie?=
+ =?us-ascii?Q?zSGVrQ4skMVtIvjqbbyEhG0RQcA/rrxrjylwlPKDMUnCbaVGXndOB1oz+F+R?=
+ =?us-ascii?Q?nHJ+nnQ1RwKYyXUeIQYU8bTeHrPZxEudvVnI35F+7v2RBqgCs4zeSAWDVNPN?=
+ =?us-ascii?Q?x+/3mkCyPeJ7wMpQdX4+3Sgrj8seb3hMXXr0MWjM3BKMdxwt/PvNOhRTNzH7?=
+ =?us-ascii?Q?st1VnhuuhaBI123/w9lAQtsFj6+dzQVK0C/1mAP+GQOEUKpC2RpnZ9BPgfy8?=
+ =?us-ascii?Q?HTmSp9heZLcX39T9xPbqnGUtEJMrFkayLORoGYlAfzmlJyKlMCX4iz9njbON?=
+ =?us-ascii?Q?By2+/kl79Zz8AaDWlNje0BwWZyUO5sJXtRpnTRtb+ZrI0d1OyhQ9TQMYxJDs?=
+ =?us-ascii?Q?6WTj0O30k6QRf/f+aM5xWXie6/HqnbEyPYN9UI8KTq0xUmb2yiQ1VPhrdb4O?=
+ =?us-ascii?Q?9OeBEKE61cN8VXUfiu8xV779g75XquJcTcLkWIkdiAgYumUCcv9FvIFnxzxl?=
+ =?us-ascii?Q?tUBMMuawEFVWhS4w8FHJ3rXAQxOkWL3+JDgxeExgXFM+gtw57NdAxcPoO5WX?=
+ =?us-ascii?Q?1402sYQX+Ev1FaVqcg6+fsdg4XMjkZUpy0oS/KpYXpxt1lf4ib+Cv/PhBz1v?=
+ =?us-ascii?Q?c45RAvJPrJWj2AckWHD3jeIxuSVAlNquSxoZwI4iDERJ2wMjd19jKeavyJuG?=
+ =?us-ascii?Q?TbH24+UxCF+FzUSgIXWsxWeeG0vxZSZy8dHGnT7jF0DtCfeILtwSxm7Z8Jc/?=
+ =?us-ascii?Q?/I+cJw=3D=3D?=
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:52.101.64.25;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKN;H:DM4PR02CU002-vft-obe.outbound.protection.outlook.com;PTR:mail-centralusazon11023025.outbound.protection.outlook.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH8PR09MB9484
+X-FE-ETP-METADATA: eyAidGlkIjogIjN5UDF4MkQtMjAwMDktMTAyMzI4MDkwMzQ3NjZENTE0NjA3OWUwMGVkIiwgImFj
+ Y2VwdGVkX3RpbWVzdGFtcCI6ICIyMDIzMDMxODE1MTkwNCIsICJhY2NlcHRlZF90aW1lc3RhbXBf
+ ZXBvY2giOiAiMTY3OTE1Mjc0NCIsICJkb21haW5fbmFtZSI6ICJzZWF0dGxlLmdvdiIsICJhdHRf
+ Y291bnQiOiAtMiwgInNyY19pcCI6ICIxMDQuNDcuNjQuMTAwIiB9
+X-MS-Exchange-Organization-ExpirationStartTime: 18 Mar 2023 15:19:08.2020
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 0b81dde6-d48e-43d1-d2f8-08db27c41e82
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ BL0GCC02FT012.eop-gcc02.prod.protection.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BL0GCC02FT012.eop-gcc02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ a3164a25-5fe4-4be3-0213-08db27c4039e
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:15.200.32.128;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:mx.us.email.fireeyegov.com;PTR:mta-ugw1-9ebea1.email.fireeyegov.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Mar 2023 15:19:07.8583
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0b81dde6-d48e-43d1-d2f8-08db27c41e82
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource:
+ BL0GCC02FT012.eop-gcc02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH8PR09MB9625
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.1562089
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6178.036
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?+Sv2lV/3DxHah0W4u7TEPyQ+1M4cNTfAhPnzZt+E16ZVT/LCyU00aRVj8bC7?=
+ =?us-ascii?Q?1PtDNIWrzaq99CROmARuQbUjMuvPC+PoFHlFl1qnchdaRCbCYoKFM5bjp4ap?=
+ =?us-ascii?Q?Hx+w9tlxJqeY9N6PW9mPM+OS2/QFkIFlAojriyCKFa+l+J0vUM8EVdpoDHC7?=
+ =?us-ascii?Q?PcAIS0VM1MqsLk4M4VU5gKIwByUsB1m3/khG+uYZpqvFb6rIQMlq349lc/In?=
+ =?us-ascii?Q?2rmJREOi5vzJe6UcI3qwqHDdwzCtocfe0HSY9yw2Tz93NHtGjEQTLAg21IsI?=
+ =?us-ascii?Q?l7OVzGJWTtr/1V6qJBj5OvCVDOOdLXUZEjcAnBs1MaQMD1XxtWhcuw/ERltL?=
+ =?us-ascii?Q?iL4v4zAoXKkE0V+UTAL6EDrAwkhL7Jqg79r1Ny160MUpDCuKnBeVhoezO2Xn?=
+ =?us-ascii?Q?ZgwtVJnVkqUQczLIZ8+XWUu4zWGLiLYtWZHbcVwfJBWsIYQLrB3A/tFjwQb4?=
+ =?us-ascii?Q?qps/vUTRk86jteVl6gFkz7eUQXZTkoPmBLKLY2IgZEGqIWZg1OMsrmhzeQT7?=
+ =?us-ascii?Q?+3CuxBcXTKfZShtPKo/Yd1Jg4KeKjmDVKoHJSSrmZvR+sgevl3OD2ZwV+NZX?=
+ =?us-ascii?Q?1QXRGUkYH+ohug0xtuMCpGb1FDHWm/MI/of1er3WWNjym7V6FeLCYW23x89f?=
+ =?us-ascii?Q?FDdE2gCfhvbqL9cHfEKmSieZaQKp0yZwE16sqt5oeKfydLvTohXKlN3WZhxo?=
+ =?us-ascii?Q?d9CvSnJVEpp/nCuliGLmKYZnRvTbUrRsVFSOWry0F9MqJr4Ujashg6LU75pm?=
+ =?us-ascii?Q?KC4KOuHpt1KpTCv0o41UH3DAPlQ84lMNDbi2GGmQTc/KPA1ANumrqQ+uq5Jt?=
+ =?us-ascii?Q?dMw5HR4LRWCJKA3V28cjP3xB1owm9HLEwBH69Q14SpxfmbxPxH4uKDw3QBk5?=
+ =?us-ascii?Q?6Zuu+HEhCr97VNT4UfkdcAe33vRhxqI3IvInU1FljdOzFYJuAzxtY8kxiNF5?=
+ =?us-ascii?Q?X7USxDAc5WSLyayQnQiDEhJHJ8HLHdYWOYHRhyEOTk5FGxFvEhcgifix0NoB?=
+ =?us-ascii?Q?AQvTABPptMkla7XaeRX+wu/Gw3BRjfmqgoE31AH2ZHjzw96ge3wf5TzHpk+r?=
+ =?us-ascii?Q?qw+MRWVJQHrE/DmRRa1naS1oVsEEfM/2Gr9NFY+z3GJw42O2b1phH+NABYXZ?=
+ =?us-ascii?Q?eMqcDv4wOIBTeyRImVF4taiLrsPbyx61N7yuQXM/EKJFsp+2xxiPfmLQPvi/?=
+ =?us-ascii?Q?aW4CVsrojTy4ePg8lcknSrZ9Yfd73st/mL4Ij3sJSKSaxYEI33+Imbqolpc5?=
+ =?us-ascii?Q?KV0REchy4VmOREFbTZx4BT8JKXy5VpCXXl07xaRWsmmGcjTAGYeDrf/ieRVC?=
+ =?us-ascii?Q?W1iyuvDS8OEQsmX9zqZoEkljEBnTLGWq7WoaFn2qZPBDB1k+rzx90PhHxcsh?=
+ =?us-ascii?Q?qXoKZL+XQeGMAx5HGAnD+ZIRMbMX/QorfKK4XKjzAZDUpdstDn5D9CF0fg22?=
+ =?us-ascii?Q?Z8FIUJNvQIqH+S31h0b8fbBR/UdjzmuUQzOEpshSE2N3VkYYWfDAxieCsDf6?=
+ =?us-ascii?Q?jx5lhk8E+KkbLUlkNhos7u3l4WNNd+RitTU5LfR1oCR4N2Ra350txvPB8Nlo?=
+ =?us-ascii?Q?3DH7t1H96ByvOTM4/pZCyITMIYPW7SkK0Qaq4XNDzmveHxfTGT36eabynT3y?=
+ =?us-ascii?Q?dO17B3ZpAHPK8LD0iIbHxXNot4e4AWwTai0GcdU0F12ouCMi4qWbDZigYvWI?=
+ =?us-ascii?Q?1E0IrV1YGu14BlJMIMjfXU5i6GrdoFkjRIsyI2Hj2FApl7NWiDgnyHc4exWw?=
+ =?us-ascii?Q?mCOALwBoN6zvxTGwUG8Z7LkjT3H+g3mIAhntRkzeopShXbtmumjC?=

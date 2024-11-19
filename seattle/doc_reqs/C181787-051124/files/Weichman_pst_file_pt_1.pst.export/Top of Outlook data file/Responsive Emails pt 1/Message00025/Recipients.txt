@@ -1,0 +1,5 @@
+Display name:		SCI_Accounting
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5e5188f2ff184eebbeaa3ddefcfd2435-DPD_Account
+Address type:		EX
+Recipient type:		To
+

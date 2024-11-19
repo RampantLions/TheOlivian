@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					76117
+Flags:					0x00000001 (Read)
+Conversation topic:			PDR Assignment (Created 5/11/2024 1:26:18 PM) (Wiechman, Joshua) / C181787-051124
+Subject:				PDR Assignment (Created 5/11/2024 1:26:18 PM) (Wiechman, Joshua) / C181787-051124
+Sender name:				City of Seattle Public Records Request Center
+Sender email address:			seattle@mycusthelp.net
+Sent representing name:			City of Seattle Public Records Request Center
+Sent representing email address:	seattle@mycusthelp.net
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

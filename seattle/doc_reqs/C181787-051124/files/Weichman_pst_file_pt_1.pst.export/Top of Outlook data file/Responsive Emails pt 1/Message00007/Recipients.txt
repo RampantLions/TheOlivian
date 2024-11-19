@@ -1,0 +1,18 @@
+Display name:		Brown, Jordyn
+Recipient display name:	Brown, Jordyn
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c84b1fc91f4b4ba08d3d1d63192f2fe3-BrownJ10
+Address type:		EX
+Recipient type:		To
+
+Display name:		Jones, Lynda
+Recipient display name:	Jones, Lynda
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e26a4f2f3dc142debc6079550f44a0cb-JonesL4
+Address type:		EX
+Recipient type:		To
+
+Display name:		Taylor-Reed, Yvonne
+Recipient display name:	Taylor-Reed, Yvonne
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5f18f3a1b3294fe9b091f748e6673d90-TaylorY
+Address type:		EX
+Recipient type:		To
+

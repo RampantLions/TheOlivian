@@ -1,0 +1,15 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					98982
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Certificate Inspection Fees Due on EQP-BP-16740, 809 OLIVE WAY SEATTLE, 98101
+Subject:				RE: Certificate Inspection Fees Due on EQP-BP-16740, 809 OLIVE WAY SEATTLE, 98101
+Sender name:				SCI_Boiler
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=11526F78383A4C2AB7D950FE40ED92CF-SCI_BOILER
+Sent representing name:			SCI_Boiler
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=11526F78383A4C2AB7D950FE40ED92CF-SCI_BOILER
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

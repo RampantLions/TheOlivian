@@ -1,0 +1,67 @@
+Received: from SJ0PR09MB10216.namprd09.prod.outlook.com (2603:10b6:a03:464::6)
+ by CO6PR09MB7783.namprd09.prod.outlook.com with HTTPS; Thu, 16 Nov 2023
+ 23:01:48 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=seattle.gov;
+Received: from SJ0PR09MB10438.namprd09.prod.outlook.com
+ (2603:10b6:a03:50f::17) by SJ0PR09MB10216.namprd09.prod.outlook.com
+ (2603:10b6:a03:464::6) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7002.21; Thu, 16 Nov
+ 2023 23:01:45 +0000
+Received: from SJ0PR09MB10438.namprd09.prod.outlook.com
+ ([fe80::cb98:f601:dbc7:9e69]) by SJ0PR09MB10438.namprd09.prod.outlook.com
+ ([fe80::cb98:f601:dbc7:9e69%4]) with mapi id 15.20.7002.018; Thu, 16 Nov 2023
+ 23:01:45 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "Taylor-Reed, Yvonne" <Yvonne.Taylor-Reed@seattle.gov>
+To: "Washington, Stella" <Stella.Washington@seattle.gov>, "Warren, Heather"
+	<Heather.Warren@seattle.gov>
+CC: "Roat, Maureen" <Maureen.Roat@seattle.gov>
+Subject: Record #013531-23CP / 809 OLIVE WAY #1109
+Thread-Topic: Record #013531-23CP / 809 OLIVE WAY #1109
+Thread-Index: AdoY4L55GjE+tmDoQXyHxDOXgt+mhw==
+Date: Thu, 16 Nov 2023 23:01:45 +0000
+Message-ID:
+ <SJ0PR09MB10438CF7CEF78646C14410602D9B0A@SJ0PR09MB10438.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <SJ0PR09MB10438CF7CEF78646C14410602D9B0A@SJ0PR09MB10438.namprd09.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource:
+ SJ0PR09MB10438.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ 66628325-844f-4b37-7814-08dbe6f80184
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ SJ0PR09MB10438:EE_|SJ0PR09MB10216:EE_|CO6PR09MB7783:EE_
+Return-Path: Yvonne.Taylor-Reed@seattle.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 16 Nov 2023 23:01:45.6520
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: 66628325-844f-4b37-7814-08dbe6f80184
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SJ0PR09MB10438.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Nov 2023 23:01:45.4619
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource: SJ0PR09MB10438.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: 66628325-844f-4b37-7814-08dbe6f80184
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ0PR09MB10216
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.6205991
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7002.015
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	mJG4yzDE5+mt+cOIQCk/7+pazLim9pBcjQTPFOdnEEMhbSjzjlapSLSfm9Qj9Fi58ipiiO3RL1fIY3bPJ9I/lU9ibAtX/fRmJr+5Mys9DbaX/x7fULTO+yuG+06X3u6m6rI14WIwlPuMq9V/Yka3g/Mxb5+VMbgkl2YVsLm0FYAljo26SQrxlr9QoIK8NIhqkn+suO20I1dJSc2LQ+iihGGQMxLkF2kveYbxM6XIWJR+M08UnKobimzKR5dVUNKhSm1V2RiBAd6iWtmgfBGdnHQn38xHc8tBAlE2fqYSzdeDNZBPNZ/lXvpoMNp2bBCv9xcEDFNZVxVqFu4hwyibeYQUtVr93PY7uYzus7AOwN8TxCUDuhN4W/olTXDL5RHdLyb9UiCliiDRkWAqSJNglg4V9z8HUBH7Cr0TWkhTlaE3QzFnxRGVvH0FUjlSOOVv1De/glTiGYD3FxDkeUaPiMWzmmzBTKXRcgqapHv6gPISVfwSDJu5/W2O6Bu7jQCzbpNc/NFcJpCwGis4qTSxIkzFZ1O3F03e0N7RST8zu4wr3HnWKDZLrHY9QaO+1JWNNGUXWxJP5hRpY8uI9jJvNhs2y1dBrbexplZnPtKqmwSPdSZE242t0LK7iDPfbh6h44luxOxra6hxaT0IKOB4ljIBzszids2qafinVbxCXIjQGrquiOOioH4bs2dDRwfZyq7/XC1g53Ho2clfTd+Jynp7SzFa9lI46YfgaBmbgdxNuBYLXM7ubyn1qrVn2IMB

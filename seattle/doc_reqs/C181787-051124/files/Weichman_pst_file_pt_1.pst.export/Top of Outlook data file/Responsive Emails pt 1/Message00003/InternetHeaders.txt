@@ -1,0 +1,73 @@
+Received: from PH0PR09MB11229.namprd09.prod.outlook.com (2603:10b6:510:2a9::6)
+ by CO6PR09MB7541.namprd09.prod.outlook.com with HTTPS; Fri, 15 Mar 2024
+ 20:35:26 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=seattle.gov;
+Received: from CO6PR09MB8022.namprd09.prod.outlook.com (2603:10b6:303:cd::15)
+ by PH0PR09MB11229.namprd09.prod.outlook.com (2603:10b6:510:2a9::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7386.22; Fri, 15 Mar
+ 2024 20:35:23 +0000
+Received: from CO6PR09MB8022.namprd09.prod.outlook.com
+ ([fe80::4748:c21f:c00f:59c7]) by CO6PR09MB8022.namprd09.prod.outlook.com
+ ([fe80::4748:c21f:c00f:59c7%5]) with mapi id 15.20.7386.022; Fri, 15 Mar 2024
+ 20:35:23 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "Keppinger, Katie Jo" <KatieJo.Keppinger@seattle.gov>
+To: "Tallent, Geoff" <Geoff.Tallent@seattle.gov>
+CC: "Roat, Maureen" <Maureen.Roat@seattle.gov>
+Subject: Re: 002450-24CP
+Thread-Topic: 002450-24CP
+Thread-Index: AQHadk19IzKTqUCfr0+wPvWfFeAe8rE3sejGgAAss/CAAArazQ==
+Date: Fri, 15 Mar 2024 20:35:23 +0000
+Message-ID:
+ <CO6PR09MB80227A6C2496F3339B241A0AF4282@CO6PR09MB8022.namprd09.prod.outlook.com>
+References:
+ <PH0PR09MB10447DF676D84A4EBD892D795E3242@PH0PR09MB10447.namprd09.prod.outlook.com>
+ <33E0B2A1-44B6-4DA0-85A8-15791BF837A8@gmail.com>
+ <CO6PR09MB8022EBB1C55B964A4B535787F4292@CO6PR09MB8022.namprd09.prod.outlook.com>
+ <CO6PR09MB754107E1B5D6F9AC71C27672FD292@CO6PR09MB7541.namprd09.prod.outlook.com>
+In-Reply-To:
+ <CO6PR09MB754107E1B5D6F9AC71C27672FD292@CO6PR09MB7541.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <CO6PR09MB80227A6C2496F3339B241A0AF4282@CO6PR09MB8022.namprd09.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: CO6PR09MB8022.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ bccf1a7c-7296-47e7-45eb-08dc452f70c7
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ CO6PR09MB8022:EE_|PH0PR09MB11229:EE_|CO6PR09MB7541:EE_
+Return-Path: KatieJo.Keppinger@seattle.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 15 Mar 2024 20:35:24.0740
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: bccf1a7c-7296-47e7-45eb-08dc452f70c7
+X-MS-Exchange-AtpMessageProperties: SL
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR09MB8022.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Mar 2024 20:35:23.7464
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR09MB8022.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: bccf1a7c-7296-47e7-45eb-08dc452f70c7
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH0PR09MB11229
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.8352080
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7386.020
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	OqYMG3Psn838M1dW3hwHD3ulYV4BfU0zYrG3j/Ov3t5sBK/iZMOhtr4PTFMLJrE7+Qbx6SufGqIUKnp8loppu1AaZk8q8OjR24r4xMhjFQvQiRoVzZvcvYG5aMYP6iQ23sW1NxZQnaHKrs9v30dY9Umrg/QC0so7gvs1ll3KoIPRxkm+jM05S+MQRfhb+FI6aTyzwMcKcucbooRbBkhTpEDD/Y5sEFzRZyAzMPFyqIaNevfoSe+ov7SYWerXrXnhCPKp+YnVfWyiKwogc/Bmw8dKufdagm9hSUcm1uCkPXrjyZ96zPNQusyJlRz+wSvmpES5o/wG5MU6sJ6/UKEwgZgpaTTyJWC95xg7iqw2sjAer7w6RJl8gxYXlx5y7Khu6fkaNgOJq0DbJ3y9fVMGfMDJswiQrGi3Lj252z+06UpAAMsw+jwJeRRsvmn2BupSdxECQj+vSU03AWxm3TM/eJyaTOTgJHohbE+QH4tVbGCvdsMHpp7D+GEs/AeKtyIRA22XteAnsheLAhQLSTSImEo74xpJL3hft2IAyCa31p4L5uafs37xB+iDDGx5Crly3nbv/f6pbyKBY2pu7z6vcJwxt8X/viVmeHV/743evwmn4PlpAGJtGjRIDOYC40kIaznKabyakJoHaqDmv9A0JSqk9BFN1Kh9w3aNsz9Lc6rhhast85ZQVHGaNUIw8imHIFv9QelUS6HAzNZgufXVeZc+AIlh1vzArjWSbPC375GfYivaBmYnF3ZAsGy4Twj7cAGMvWKSb3l+O2dRaXnj/A==

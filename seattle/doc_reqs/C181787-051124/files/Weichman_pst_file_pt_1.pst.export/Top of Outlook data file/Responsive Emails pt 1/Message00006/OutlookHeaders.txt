@@ -1,0 +1,15 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					78500
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Record ID: 013531-23CP - 809 Olive Way - J Wiechman - HBMC INSPECTION REQUEST
+Subject:				RE: Record ID: 013531-23CP - 809 Olive Way - J Wiechman - HBMC INSPECTION REQUEST
+Sender name:				Jones, Lynda
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=E26A4F2F3DC142DEBC6079550F44A0CB-JONESL4
+Sent representing name:			Jones, Lynda
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=E26A4F2F3DC142DEBC6079550F44A0CB-JONESL4
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

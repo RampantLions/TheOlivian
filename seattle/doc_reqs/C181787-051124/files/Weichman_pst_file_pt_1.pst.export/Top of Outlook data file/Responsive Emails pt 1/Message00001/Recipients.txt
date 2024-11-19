@@ -1,0 +1,6 @@
+Display name:		Tallent, Geoff
+Recipient display name:	Tallent, Geoff
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fae87cd722bf4b778d371dd40a182100-TallenG
+Address type:		EX
+Recipient type:		To
+

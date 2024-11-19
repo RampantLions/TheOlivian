@@ -1,0 +1,6 @@
+Display name:		Jones, Lynda
+Recipient display name:	Jones, Lynda
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e26a4f2f3dc142debc6079550f44a0cb-JonesL4
+Address type:		EX
+Recipient type:		To
+

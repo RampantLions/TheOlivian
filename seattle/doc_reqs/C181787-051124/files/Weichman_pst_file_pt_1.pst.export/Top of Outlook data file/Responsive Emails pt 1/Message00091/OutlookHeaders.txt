@@ -1,0 +1,15 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					34282
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			NOV 1058342-VI 809 OLIVE WAY
+Subject:				RE: NOV 1058342-VI 809 OLIVE WAY
+Sender name:				Hou, Kevin
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b10ee3d2aa3c4a6e8668388ce928bbbc-houk
+Sent representing name:			Hou, Kevin
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b10ee3d2aa3c4a6e8668388ce928bbbc-houk
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

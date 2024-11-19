@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					13659225
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			809 Olive Way -  PA
+Subject:				809 Olive Way -  PA
+Sender name:				City of Seattle - MFP
+Sender email address:			Networkscanning@Seattle.gov
+Sent representing name:			City of Seattle - MFP
+Sent representing email address:	Networkscanning@Seattle.gov
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

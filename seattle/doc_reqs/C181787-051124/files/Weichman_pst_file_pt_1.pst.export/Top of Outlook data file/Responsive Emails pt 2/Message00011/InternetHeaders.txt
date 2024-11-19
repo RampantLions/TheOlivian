@@ -1,0 +1,217 @@
+Received: from DM6PR09MB5062.namprd09.prod.outlook.com (2603:10b6:5:271::19)
+ by CO6PR09MB8790.namprd09.prod.outlook.com with HTTPS; Tue, 30 Apr 2024
+ 05:54:06 +0000
+Received: from DM6PR09CA0035.namprd09.prod.outlook.com (2603:10b6:5:160::48)
+ by DM6PR09MB5062.namprd09.prod.outlook.com (2603:10b6:5:271::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7519.34; Tue, 30 Apr
+ 2024 05:54:05 +0000
+Received: from SA2PEPF00002250.namprd09.prod.outlook.com
+ (2603:10b6:5:160:cafe::93) by DM6PR09CA0035.outlook.office365.com
+ (2603:10b6:5:160::48) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7519.35 via Frontend
+ Transport; Tue, 30 Apr 2024 05:54:05 +0000
+Authentication-Results: spf=softfail (sender IP is 15.200.32.127)
+ smtp.mailfrom=gmail.com; dkim=fail (body hash did not verify)
+ header.d=gmail.com;dmarc=fail action=none header.from=gmail.com;compauth=none
+ reason=405
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ gmail.com discourages use of 15.200.32.127 as permitted sender)
+Received: from mta-k0ifm6n.email.us.etp.fireeyegov.com (15.200.32.127) by
+ SA2PEPF00002250.mail.protection.outlook.com (10.167.242.132) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7544.18 via Frontend Transport; Tue, 30 Apr 2024 05:54:05 +0000
+Return-Path: josh.wiechman@gmail.com
+Received: from [127.0.0.1] ([127.0.0.1:51424] helo=smtp-injection-worker)
+	by etp-prd10-08 (envelope-from <josh.wiechman@gmail.com>)
+	(ecelerity 4.4.1.20033 r(msys-ecelerity:tags/4.4.1.0^0)) with ESMTP
+	id 85/7E-19072-C7780366; Tue, 30 Apr 2024 05:54:04 +0000
+X-FE-ETP-SENDER-IP: 104.47.64.101
+X-FE-ETP-CONNECTING-IP: 104.47.64.101
+Received: from GCC02-BL0-obe.outbound.protection.outlook.com (mail-bl2gcc02lp2101.outbound.protection.outlook.com [104.47.64.101])
+	by etp-prd10-01 (envelope-from <josh.wiechman@gmail.com>)
+	FireEye ETP with ESMTPS (cipher=ECDHE-RSA-AES256-GCM-SHA384)
+	id 3yVROIO-20009-10gFAB218761A77803667bf789b; batch_id FA/B2-18761-A7780366; Tue, 30 Apr 2024 05:54:02 +0000 (UTC)
+Received: from CYXPR09CA0016.namprd09.prod.outlook.com (2603:10b6:930:d4::20)
+ by MN2PR09MB5385.namprd09.prod.outlook.com (2603:10b6:208:21c::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7519.36; Tue, 30 Apr
+ 2024 05:53:59 +0000
+Received: from DS4PEPF00000172.namprd09.prod.outlook.com
+ (2603:10b6:930:d4:cafe::34) by CYXPR09CA0016.outlook.office365.com
+ (2603:10b6:930:d4::20) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7519.35 via Frontend
+ Transport; Tue, 30 Apr 2024 05:53:59 +0000
+Authentication-Results-Original: spf=pass (sender IP is 209.85.221.42)
+ smtp.mailfrom=gmail.com; dkim=pass (signature was verified)
+ header.d=gmail.com;dmarc=pass action=none header.from=gmail.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 209.85.221.42 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.221.42; helo=mail-wr1-f42.google.com; pr=C
+Received: from mail-wr1-f42.google.com (209.85.221.42) by
+ DS4PEPF00000172.mail.protection.outlook.com (10.167.18.199) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.7544.18
+ via Frontend Transport; Tue, 30 Apr 2024 05:53:59 +0000
+Received: by mail-wr1-f42.google.com with SMTP id ffacd0b85a97d-34d8f6cfe5bso112116f8f.3
+        for <Eric.Jenkins@seattle.gov>; Mon, 29 Apr 2024 22:53:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1714456437; x=1715061237; darn=seattle.gov;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=T+YTZu2mmRVgvB8uiyG4tNLkO+e4l0PNYbE6CPXR9WE=;
+        b=T4e/cgKDGe2oIZj/IBfQt++Ix8bzJWP8bLloYrHkg7kxwsIMeyAnKr4oIiu5V/J+PO
+         WNLEbZPKePbQAYF+ABZzj5lTBk17PCdQvtUX/PmXN6o624uP6OWrMXlmTuohiqUaWnlc
+         4iHnCG5RA6dBkvmYz8MwQDHcZ0Kc9zDzkZ1a1jlodEDaSGxztcxZt7fGHcxuK2fTIMAm
+         Wz+WPQmwxOVIIQlNpdj9Y5GBn9IEdCfZd9/DHiCMyNg6Su4g2xfBck9dXC27KVG16GlY
+         rxc62xWRTgMF/O87bsvXVdRdE1l19mAQcrr3oF0dr7hmQVGulRGXZJjzaOaAJILY6VXP
+         lNqw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1714456437; x=1715061237;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=T+YTZu2mmRVgvB8uiyG4tNLkO+e4l0PNYbE6CPXR9WE=;
+        b=vWc/efA8XdT1KwCJ0boe/kWNHPhaxd8C9FT8NriFAW9dADh256uCL8wXw2oAzenUBo
+         Zr2KoOIJbGZJRqIgts5/KekKPTDurpkSyKqXzb7q+f4Ir8QfunTyJUOn0iWYEA0cYQm3
+         hnEXPx0z6sf6eeJJvEXuWDLggJHbB3ME0vtzc2GR4PSyai82wG54frPATOKoTTIn+Yjq
+         1d5YsP7egUznB2TmxJ+q+zoS5JkG/NUYLz6IXtNfu6uU82AUpZVuvZzHRiBnYZNs6YdS
+         fOvOzs1lHTUXB4esVUJkb7AS0qfQVKXvP3vtMVK0aRw1OlGnXsOWy+DlYiBZr6+4wGPH
+         slUA==
+X-Gm-Message-State: AOJu0YxB3ecBwi2cKLXDmtbSIKFIjK1DLLk9jwl24RcPD2C4P0riMW4y
+	RHxv5GZQzvtH91j1pjtk4l9R1jfVJt5Bqsd5+VkEC/UgoAOUWjqwc5MBhAfeP8g372+foardxgW
+	1H5OtYsst8bh0dgoMtk8fAvOf51B3pQ==
+X-Google-Smtp-Source: AGHT+IHh8D6qp4o79fr1SYXTNz5DmtDu8B/kZdvmGQnWmuXX8t3xmQAIsEeT1mvcMz8RnbEXog7rZ9jKZwWr21fpys4=
+X-Received: by 2002:a5d:5f46:0:b0:34d:707c:a281 with SMTP id
+ cm6-20020a5d5f46000000b0034d707ca281mr1060947wrb.6.1714456436937; Mon, 29 Apr
+ 2024 22:53:56 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAFZVY4ok2AUe5_-HScB0GCiWvNa3SOn4AnJ3YfjWL6myWQJPcg@mail.gmail.com>
+In-Reply-To: <CAFZVY4ok2AUe5_-HScB0GCiWvNa3SOn4AnJ3YfjWL6myWQJPcg@mail.gmail.com>
+From: Josh Wiechman <josh.wiechman@gmail.com>
+Date: Mon, 29 Apr 2024 22:53:43 -0700
+Message-ID: <CAFZVY4r0i_VukqXv-r31y1Uof7q1MF0zrP6z+ocF1+SkC-79cg@mail.gmail.com>
+Subject: Re: Conduct of Pamela Brunner, SDCI Complaint No. 013867-23CP
+To: Eric.Jenkins@seattle.gov
+Content-Type: multipart/alternative; boundary="000000000000e81b88061749fe04"
+X-EOPAttributedMessage: 1
+X-EOPTenantAttributedMessage: 78e61e45-6beb-4009-8f99-359d8b54f41b:1
+X-MS-TrafficTypeDiagnostic:
+ DS4PEPF00000172:EE_|MN2PR09MB5385:EE_|SA2PEPF00002250:EE_|DM6PR09MB5062:EE_|CO6PR09MB8790:EE_
+X-MS-Office365-Filtering-Correlation-Id: 419002c0-9bb9-4642-bf9e-08dc68d9f1bd
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-Microsoft-Antispam-Untrusted: BCL:0;ARA:13230031|7093399003;
+X-Microsoft-Antispam-Message-Info-Original:
+ =?us-ascii?Q?fggOLGYo3RtoeKrB7sZK1hTYP2QubdPFwV5hyu61J7yMdcWD6SzKVflmWEef?=
+ =?us-ascii?Q?JjpbhbR20LK5CNRAS+UguWAQzprUmRkJMlltPNJPskwuuSpg0i7L57HQViyz?=
+ =?us-ascii?Q?BvWGVlG3S/VhVgfWeO/zPfSbL9RSgcoYrdHHR3Oms4V0LcmUIBUKvBMsyK7y?=
+ =?us-ascii?Q?vkujtZQ4hJci0PZ7M7B9DkcR7Ri1vWhHIbDFBkiyzFFdAF8czceWE0hcFuIY?=
+ =?us-ascii?Q?uf8GFiJrfcbmUgRfG6YMjjm/tA6Ngi3oWPl89Ajz8MugZGKKEKoUxJ94z8ao?=
+ =?us-ascii?Q?0LxxL7DfwDAJ2280FV4/RSm7z8dMuL8XOmp5yN9KKYOuiyEU7exJaoSdOTVJ?=
+ =?us-ascii?Q?45ByE3nMi+yp/dddZWw5LTEofSj/juZeyCDW0FRZj2+Bzk5FZiHLAs58Zeyr?=
+ =?us-ascii?Q?na8FjhN3UzppehCDoL6rPawdNiqnxUoN3hjsiIHXygiXkhJvG+eHk3y6Jkta?=
+ =?us-ascii?Q?SAn3xg8Cev+gny3z0isu+M3ow3sMfr2paITTrUWsDpotDXBlxGyU/ubJqeR0?=
+ =?us-ascii?Q?Q1F7xKoJkCudfmrJZZuGjCxwquWqENf2aGdpC7XgXlVYqiiCxJPemcrur2b4?=
+ =?us-ascii?Q?GDcjxcUNL5KmRx4nlWkGhpEzu9STOeRYkxd4ueBoEBk3zCiWuMCjUnboMIMq?=
+ =?us-ascii?Q?wehwDx2YsR6YroCLGCa1HCF3OOPHTpGRGHh82rK9Y5OWikH1Eii1mmCwzTLC?=
+ =?us-ascii?Q?ZgrqcJG6Rc56rUb15tbzoy/GZu4ST1XW7KhVoFKqihtc4B3GBEuR5DLjZTNK?=
+ =?us-ascii?Q?csM1UNPnPLV6hfa3H5gODL48zj6bvX2Bxo6kWcw2zkCc3dUgHiH82lQLWkrA?=
+ =?us-ascii?Q?N0LVNPR2ETFZBMhL8KMCxh5sGJycdkcLqmcXZsT1Jp8+uHGRpx4eR9U1JCBD?=
+ =?us-ascii?Q?aIS5C3xe2vFFnn/rDtS7uoLZclIgX49aWhQf8a1Fo4/XNQqXkVDloaXAhjxK?=
+ =?us-ascii?Q?A0TYH81EWSUtgkv+ZAfogbrFNJ1XtTPctvT8Pxh+TgfEgU0o9iuiX2hdQyA4?=
+ =?us-ascii?Q?eVthrsCZiM1PRdSiPuGgLAh1334WQRiTp9vKXpUQkDcAj2A6M2LlOLh+eITx?=
+ =?us-ascii?Q?bMZnQAC/+IDt2AfpHlpF7nyF7rSECI0l1xPlUBZvlGJ4YuuGemUwnuvMGEok?=
+ =?us-ascii?Q?gqRTuRCQyqALOMSTsvIc75rz6nsEFbZMw6VZ3Lyrwt3TVFUVg3REfSnZMxXS?=
+ =?us-ascii?Q?ov9gJpW45eePQpa6x9lJ7eKFBWzlQ6/uioRMXn6bEGD7O6rsFjXBf/h4ZfUn?=
+ =?us-ascii?Q?V37FA8bXpVY++c9lHaElUyrX7OUb/llQktJS3DCIeX845wc/+MILAS+FeiCa?=
+ =?us-ascii?Q?m/nUc/Ya+DROcUwQ7Smk6MFVeZTMssoKKg3RG3VGA4txowiYq/j1AOPeKATR?=
+ =?us-ascii?Q?p6bQbcEvTukRFUrkZOdiryHDxT8YqYry8mEbP/zX/4qzb9xEu9Y+f44jLMM/?=
+ =?us-ascii?Q?wpTnuLRaf8MMqzp+OnnO00ZiSHI4U3Aek5LgnDVNF4Ld3/W0hAnXWIeLDwqy?=
+ =?us-ascii?Q?J5AZtRXFHl7GO958Z6fVVcYCyUq+DXX1vQkuq3PlIq5GsUocs8jqcmFxHcOO?=
+ =?us-ascii?Q?tsniROjkVO2YX3WpAlK/3RIAtSvR+Sgw760TzAQMb91N521R5Qe81VGq9viF?=
+ =?us-ascii?Q?oWzO70IkLv+tcLQo4pRFwLO0tTJYbcW8lbWYpj3XDh8X3oMEdj1fsbbLqajl?=
+ =?us-ascii?Q?zHHdxMuQF5mJb2+QoRszPWx0zo8jAczUIoPFk2jjBsqU9fqwwAfEcjSqhd+W?=
+ =?us-ascii?Q?GzqlMVZP0buhqC3D7PmrsBiq+bB1KQH8PVOq6oGFI2BwvcaFF4kmGURIo6me?=
+ =?us-ascii?Q?U+Hg7ZdCpePfnM09m/zeRU0LDedzG6r0S0gLzAmKWCLVkEoEg3uTBwR/AIWt?=
+ =?us-ascii?Q?PV2hIvpx5j17ilSFOk4PmPSbSZr6VUBUHQWEXvvW2w2oCbq2ax8oGq7X3bSK?=
+ =?us-ascii?Q?6hVxPxAlp/UftZxeEbvLYpBhiTYxU1ncSshxaEsyeiUVimiicSYvB/eejNlj?=
+ =?us-ascii?Q?1OvL8Vj9Vo2KqQysM5gB+XF8r61BJFfrNMbqGoFLFjQEhCsjN2Va65SBEfbb?=
+ =?us-ascii?Q?uuR5aEXQ?=
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:209.85.221.42;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-wr1-f42.google.com;PTR:mail-wr1-f42.google.com;CAT:NONE;SFS:(13230031)(7093399003);DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR09MB5385
+X-FE-ETP-METADATA: eyAidGlkIjogIjN5VlJPSU8tMjAwMDktMTBnRkFCMjE4NzYxQTc3ODAzNjY3YmY3ODliIiwgImFj
+ Y2VwdGVkX3RpbWVzdGFtcCI6ICIyMDI0MDQzMDA1NTQwMiIsICJhY2NlcHRlZF90aW1lc3RhbXBf
+ ZXBvY2giOiAiMTcxNDQ1NjQ0MiIsICJkb21haW5fbmFtZSI6ICJzZWF0dGxlLmdvdiIsICJhdHRf
+ Y291bnQiOiAtMiwgInNyY19pcCI6ICIxMDQuNDcuNjQuMTAxIiB9
+X-MS-Exchange-Organization-ExpirationStartTime: 30 Apr 2024 05:54:05.2704
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 419002c0-9bb9-4642-bf9e-08dc68d9f1bd
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ SA2PEPF00002250.namprd09.prod.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ SA2PEPF00002250.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ 81a33f63-2f8b-4b63-a3be-08dc68d9ee0f
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;ARA:13230031|35042699010|82310400014|7093399003;
+X-Forefront-Antispam-Report:
+ CIP:15.200.32.127;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:mta-k0ifm6n.email.us.etp.fireeyegov.com;PTR:mta-k0ifm6n.email.us.etp.fireeyegov.com;CAT:NONE;SFS:(13230031)(35042699010)(82310400014)(7093399003);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Apr 2024 05:54:05.0672
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 419002c0-9bb9-4642-bf9e-08dc68d9f1bd
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource:
+ SA2PEPF00002250.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR09MB5062
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.8565149
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7519.031
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?Z0YcYHRYn8oTdfTFpuhrz3fsHfCQTJnvBQoEsSRCY5H2wi7quXJRg5pLDEm+?=
+ =?us-ascii?Q?cJXjTEJbts2Xf8ET4qqIXtBczMi901wCPE/FXu+jh4TDgEZOiWqyuACmhHtw?=
+ =?us-ascii?Q?c47iObMlO/At7uPM3bSDFLVuDrmrouSlmtTpr0t3ouLOM0E7m1yle53Tn00f?=
+ =?us-ascii?Q?vYAiT7TBUItPpBqGn/ARByWVaQUE6iaLhclEvyvdPpLGNoAgnqdAHMo/UR2T?=
+ =?us-ascii?Q?s9BOcpH4/CDNrQhKFqZwTi0bsI6dQf3wG/vXtEEC2vsHByMWO/LnjETrXaEt?=
+ =?us-ascii?Q?AI9H0PfAFcQpjf1/gty7Yjivkut6vMmNXebEq6kxV1N6ZkyBGcIepkC3L4iC?=
+ =?us-ascii?Q?lCKeHQB841E8OXPskIJh2PD/q6upPgr91WbsPw61VOoSyFAJeHfcSplDcowM?=
+ =?us-ascii?Q?cm1zDRqHXO79NDtJ4SrWQglheuM6G2+7a7Ayt7ZCfiGhJ7SzUKWdq8CbuW71?=
+ =?us-ascii?Q?FeKpKLv/VS8GLnFPDYg3+yhzHGT1q0JoL4144Le5xeZXNPzQuXKB/fzYA02V?=
+ =?us-ascii?Q?qiiVgG6aX+pWlx95NHQD6sGtEKv2FDemnaaeY8mokGKA/KIGMf9z7mJpNwgr?=
+ =?us-ascii?Q?efJXGO6a1Q+RzPVvu8un3z3qGqvMiME6P2u5L8XLXDP58Oc7Js96Fe2BBPwp?=
+ =?us-ascii?Q?Ynvvw1CpNpWEV0PTmNbwxGJ1sfBlHeAP/yHC0KTxxU5t5R/nR3OIAQ/m9jAX?=
+ =?us-ascii?Q?+0q2VxQ11ZdNphpT/HWJDl7hhWEh7sOe0aGjmXXDeElHeP1hZY6uDldC8t5Z?=
+ =?us-ascii?Q?rPW0jEx81QDG4EQNkY9RbnxhTuXsYVujokV+vAi5TjNVCeH7NdVZGk/3+OkL?=
+ =?us-ascii?Q?JlZABEZK9ykYfyqgjMJnXw4cnvHi+M9EtNBnTsORRVcdR3JqDyNKk+GpH973?=
+ =?us-ascii?Q?SFoqPbXorgAG/nYfm4ts5LOFNcW5YdSRijk4boOwYnRxrU3dpeNCHqHDQmEb?=
+ =?us-ascii?Q?Sr8Gxwl7sn4jKecju/VdFFfAJUn+XCDUA7mU/Msrptr18w9Z46bOPRafo5pv?=
+ =?us-ascii?Q?6Lih3B5tx2zNIXcN5hKvGkuDnxULnU+9TYQ+o4rzknD73lUg5OudLP/BxqAx?=
+ =?us-ascii?Q?gbKkVGr1nQVoYA1PZJJpVBVuItafuep3uEQBq9IFYcfkjCcW9P+HAH3auOM6?=
+ =?us-ascii?Q?lpp/gTbRIhVgm239nubE2rE/XDh07AuZ8bnrQ/F4CzxTdUEzDE6qeK+Xkk4v?=
+ =?us-ascii?Q?SWSCgyMgrhPjLDCWYYr3EBSz6s/KdFn6sI6INE5d0M05GwIquajTvDsVyVkT?=
+ =?us-ascii?Q?TFssd/F3kyDvFRW+fjz2uhLjMitLHKdIhn8zGJW4ohcFy7fhmQcpfH9ehpMH?=
+ =?us-ascii?Q?IqE6sHrLNgiXc08NKCUiNOaAEYuIpzK+NJt0HvhG/SLqOYlM68EtdMfu42ec?=
+ =?us-ascii?Q?q027kV5nlJm4MkaNlGULiJ8LPKQDMoykAoayIWUsnsGGtkAXjs6bbfkEqaGf?=
+ =?us-ascii?Q?jP3BTX0T9qGQDtTntGR1lUb7Q6w8peigX1YI8cbFmyQ+lXlYaJscYzykuNqz?=
+ =?us-ascii?Q?WzeRbmJ0E/J+qxBqtOaqUly03/2GYEMInrAAIaDKkuJfmOEDg4xcKbsxMnIk?=
+ =?us-ascii?Q?6SxwvIOuBPcNF4NdBF5C5ZmQgH4BBXsfN9SaQqpS0NtDXIpVUpJW6s6thMUb?=
+ =?us-ascii?Q?Ws+ApFqQpsDP0x7foWKmbkI44yTX+uf4h2tfC1+QYHUUbJnl3yWswS6LPaIo?=
+ =?us-ascii?Q?7VYliPxLBlBd3BUhWTnWSwWG7VpQtlPM97NclAq7/Ub0Oueinll9IVKVDfER?=
+ =?us-ascii?Q?4fJ6JToX3+WHpDEs9h1mDcLxcTQkwLVGnphdr+yfrX/aGtyUsEVhevJrRRhd?=
+ =?us-ascii?Q?x8bbiaPWPF/uKgrgaKxpR6+ymNwlZ2d1NnzUM3yYYUie1hSyjm3zBLViDPYb?=
+ =?us-ascii?Q?U5Yl0aryg+VZKhPXbeOjqg1QcRWlR9yuwGkIIMbgw+3n9rEiWxTOGGnGwkYl?=
+ =?us-ascii?Q?QPZB9NoFmObbpUDLCGRBETQe3DMKY+z9sR7NX2CYOy4bjCJ4IzKbUTT0KBYi?=
+ =?us-ascii?Q?k1OSamy9bCMPsZLDHC18cu+3cobUDbdmFY24PAwePRcf0d5HnKw5v9b9BcD4?=
+ =?us-ascii?Q?b5TzKEBV2kW9UpARFrtGnZXxysZR9O++nJs1YlcibMj5x6ZYImUd45awT6Yn?=
+ =?us-ascii?Q?fGTUHHfbQsHCim21iHhbn+ajjN1pabAXXcz8I1Va13Myj40bK4XLZEAMB3sG?=
+ =?us-ascii?Q?FZ9JEGzI5AtFm2cHOz/eY3D4V4ILqvSQeibOIZmN5h2X7kbQwVxppjZzJmU?=
+ =?us-ascii?Q?=3D?=

@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					4642967
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Josh Wiechman - 809 Olive Way #1105 - The Olivian
+Subject:				Josh Wiechman - 809 Olive Way #1105 - The Olivian
+Sender name:				The Olivian Assistant Manager
+Sender email address:			theolivianamgr@greystar.com
+Sent representing name:			The Olivian Assistant Manager
+Sent representing email address:	theolivianamgr@greystar.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

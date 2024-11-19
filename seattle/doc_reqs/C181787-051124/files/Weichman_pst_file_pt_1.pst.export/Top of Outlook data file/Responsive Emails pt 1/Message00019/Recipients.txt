@@ -1,0 +1,6 @@
+Display name:		McCune, Alek
+Recipient display name:	McCune, Alek
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=746b09443b2a4d8e954056a825c646ef-McCuneA
+Address type:		EX
+Recipient type:		To
+

@@ -1,0 +1,10 @@
+Conversation index:
+Header block:
+	Filetime:	Dec 29, 1830 07:14:02.076364800 UTC
+	GUID:		e5dc1e20-770f-cb43-a18f-b418a904b301
+Child block: 1
+	Filetime:	Oct 26, 1878 08:52:53.182668800 UTC
+	Random number:	3
+	Sequence count:	3
+
+

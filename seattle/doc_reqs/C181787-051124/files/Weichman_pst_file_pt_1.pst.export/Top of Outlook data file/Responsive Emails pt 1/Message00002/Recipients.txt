@@ -1,0 +1,6 @@
+Display name:		Keppinger, Katie Jo
+Recipient display name:	Keppinger, Katie Jo
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5384d54905934b9db8fbd97d556f8c2a-KeppinK
+Address type:		EX
+Recipient type:		To
+

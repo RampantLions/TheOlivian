@@ -1,0 +1,72 @@
+Received: from SA0PR09MB6377.namprd09.prod.outlook.com (2603:10b6:806:76::15)
+ by CO6PR09MB7767.namprd09.prod.outlook.com with HTTPS; Tue, 23 Jan 2024
+ 00:00:39 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=seattle.gov;
+Received: from SA1PR09MB8143.namprd09.prod.outlook.com (2603:10b6:806:173::10)
+ by SA0PR09MB6377.namprd09.prod.outlook.com (2603:10b6:806:76::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.36; Tue, 23 Jan
+ 2024 00:00:36 +0000
+Received: from SA1PR09MB8143.namprd09.prod.outlook.com
+ ([fe80::147b:19ad:1189:84ac]) by SA1PR09MB8143.namprd09.prod.outlook.com
+ ([fe80::147b:19ad:1189:84ac%4]) with mapi id 15.20.7202.035; Tue, 23 Jan 2024
+ 00:00:36 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "Roat, Maureen" <Maureen.Roat@seattle.gov>
+To: "Washington, Stella" <Stella.Washington@seattle.gov>
+Subject: RE: Record ID: 013531-23CP - 809 Olive Way #1105 - J Wiechman -
+ DOCUMENT REQUEST
+Thread-Topic: Record ID: 013531-23CP - 809 Olive Way #1105 - J Wiechman -
+ DOCUMENT REQUEST
+Thread-Index: AQHaG+AZcZ4POAcLdEqUMqhkyQfqDbDms4iQgAAw8WA=
+Date: Tue, 23 Jan 2024 00:00:36 +0000
+Message-ID:
+ <SA1PR09MB814356C4A438D1AAE382DF8B97742@SA1PR09MB8143.namprd09.prod.outlook.com>
+References:
+ <CO6PR09MB776727CBBA45E90258331450E1B6A@CO6PR09MB7767.namprd09.prod.outlook.com>
+ <CAFZVY4oD=1vwo0uN2pxZ4hTRO-jUVsMYJQxAGTYNn=kuEt1Cqg@mail.gmail.com>
+ <CO6PR09MB7767A76E907B4B6F4CC7117AE1752@CO6PR09MB7767.namprd09.prod.outlook.com>
+In-Reply-To:
+ <CO6PR09MB7767A76E907B4B6F4CC7117AE1752@CO6PR09MB7767.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <SA1PR09MB814356C4A438D1AAE382DF8B97742@SA1PR09MB8143.namprd09.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: SA1PR09MB8143.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ d810808e-efb1-4758-eff4-08dc1ba653c9
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ SA1PR09MB8143:EE_|SA0PR09MB6377:EE_|CO6PR09MB7767:EE_
+Return-Path: Maureen.Roat@seattle.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 23 Jan 2024 00:00:36.5556
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: d810808e-efb1-4758-eff4-08dc1ba653c9
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SA1PR09MB8143.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Jan 2024 00:00:36.4002
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource: SA1PR09MB8143.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: d810808e-efb1-4758-eff4-08dc1ba653c9
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA0PR09MB6377
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.1289719
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7202.033
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	EcoTUBQBab/iA+fcBf4+WwqsiO1fJMpd9sBiiitr+OHlsmc4YZrBww1UY/LKmtW+A652RiHx3ZcSW9PZqELvYyNRsJtar3gv5hkA44wtO/10ELjSe1SyATd1XSAira91yTGPBr2khtc+Hy4qGxJK6nmSJ1OlWRarE6FGEQaqj3+4yN63m2aWfsGEWlzCjLXcSUM5zALEsiqksf8ogZNtyymwbu5MBnckj2YZ9t/g5hevaLECr8nsWe8vNo2JJOi3T/c9n/yhoOh28eRWErPQLjuXPglcn4m5tBk26c3uvatl+qbFfMVDzTDoWb9KP71oyXz+gvuGfSTKpJmpR/TivB2dSIaQN3hiMLx4bNCmLVdRokVXATTP7AT4CpdHrY6RuRPoafmZ4aMXjwxuHxHSJ0SIp9wllmQipa0KCkZguNfPMKB2HujMe+kJCaanEJhphPdSApB2pgKpIJtnVTirAKqAPX+jjQq7AaZfOXyaD+wfZY577ebUbUbbkuWL/6CKjbQbsiWNrj0krzhf0Lyi2glnHhwkB+LQgVnje5GeWfr5S027GrSIX9zYh5sE6jB4jshSvrN5sn/vsXzGBFj9rr1/8UJoBEIX19KyUDQNX2/8Hui1cvMF9AAFGUQpRhPhe8212W/726/Ro+kps8V4v2EFvQ489vfP9llCsSX8KOs8ZGkE8v7yzaCdx1E4N2coEKBAv8UwXDridN5lwrYZ+jszQ8o0NFJZn3lh4Rv8xhYM7l6B6f/uMgVemsRqJkF1QA6q3zThCuoxwrix9NPpQI1Hkz7DzG8aiAY9U+6ZU7s=

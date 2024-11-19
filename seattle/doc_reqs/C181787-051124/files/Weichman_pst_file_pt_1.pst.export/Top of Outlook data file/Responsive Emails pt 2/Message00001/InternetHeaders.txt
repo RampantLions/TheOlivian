@@ -1,0 +1,183 @@
+Received: from SJ0PR09MB10008.namprd09.prod.outlook.com
+ (2603:10b6:a03:460::18) by SA1PR09MB8542.namprd09.prod.outlook.com with
+ HTTPS; Tue, 17 Oct 2023 15:47:26 +0000
+Received: from BL0PR0901CA0020.namprd09.prod.outlook.com
+ (2603:10b6:208:1c0::30) by SJ0PR09MB10008.namprd09.prod.outlook.com
+ (2603:10b6:a03:460::18) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6886.36; Tue, 17 Oct
+ 2023 15:46:16 +0000
+Received: from DM3GCC02FT025.eop-gcc02.prod.protection.outlook.com
+ (2a01:111:f400:7d04::205) by BL0PR0901CA0020.outlook.office365.com
+ (2603:10b6:208:1c0::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6886.35 via Frontend
+ Transport; Tue, 17 Oct 2023 15:46:16 +0000
+Authentication-Results: spf=pass (sender IP is 15.200.32.126)
+ smtp.mailfrom=seattle.gov; dkim=pass (signature was verified)
+ header.d=seattle.gov;dmarc=pass action=none
+ header.from=Seattle.gov;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of seattle.gov designates
+ 15.200.32.126 as permitted sender) receiver=protection.outlook.com;
+ client-ip=15.200.32.126; helo=mx.us.email.fireeyegov.com; pr=C
+Received: from mx.us.email.fireeyegov.com (15.200.32.126) by
+ DM3GCC02FT025.mail.protection.outlook.com (10.97.8.77) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6907.20 via Frontend Transport; Tue, 17 Oct 2023 15:46:16 +0000
+Return-Path: networkscanning@seattle.gov
+Received: from [127.0.0.1] ([127.0.0.1:13060] helo=smtp-injection-worker)
+	by etp-prd10-04 (envelope-from <networkscanning@seattle.gov>)
+	(ecelerity 4.4.1.20033 r(msys-ecelerity:tags/4.4.1.0^0)) with ESMTPS (cipher=ECDHE-RSA-AES128-GCM-SHA256) 
+	id D6/70-09883-74CAE256; Tue, 17 Oct 2023 15:46:15 +0000
+X-FE-ETP-SENDER-IP: 104.47.65.100
+X-FE-ETP-CONNECTING-IP: 104.47.65.100
+Received: from GCC02-DM3-obe.outbound.protection.outlook.com (mail-dm3gcc02lp2100.outbound.protection.outlook.com [104.47.65.100])
+	by etp-prd10-09 (envelope-from <networkscanning@seattle.gov>)
+	FireEye ETP with ESMTPS (cipher=ECDHE-RSA-AES256-GCM-SHA384)
+	id 3yPuRsY-20009-10174C084161DBAE256c2b4afbb; batch_id 17/4C-08416-1DBAE256; Tue, 17 Oct 2023 15:44:39 +0000 (UTC)
+Received: from CYXPR09CA0015.namprd09.prod.outlook.com (2603:10b6:930:d4::10)
+ by DM8PR09MB6358.namprd09.prod.outlook.com (2603:10b6:5:2e5::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6863.36; Tue, 17 Oct
+ 2023 15:43:55 +0000
+Received: from DM3GCC02FT041.eop-gcc02.prod.protection.outlook.com
+ (2a01:111:f400:7d04::202) by CYXPR09CA0015.outlook.office365.com
+ (2603:10b6:930:d4::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6907.21 via Frontend
+ Transport; Tue, 17 Oct 2023 15:43:54 +0000
+Authentication-Results-Original: spf=pass (sender IP is 156.74.250.97)
+ smtp.mailfrom=seattle.gov; dkim=pass (signature was verified)
+ header.d=seattle.gov;dmarc=pass action=none header.from=Seattle.gov;
+Received-SPF: Pass (protection.outlook.com: domain of seattle.gov designates
+ 156.74.250.97 as permitted sender) receiver=protection.outlook.com;
+ client-ip=156.74.250.97; helo=email.seattle.gov; pr=C
+Received: from email.seattle.gov (156.74.250.97) by
+ DM3GCC02FT041.mail.protection.outlook.com (10.97.8.151) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.6907.20 via Frontend Transport; Tue, 17 Oct 2023 15:43:54 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=seattle.gov; s=smtp; c=relaxed/relaxed;
+	t=1697557433; h=from:subject:to:date:message-id;
+	bh=X+kLcJrG6o+yq4lpBpB1rOTQTbVG0/qhUvtYp/Q1yvg=;
+	b=LKaK0CwxXY2rqsI/mCHLhSJCZKeSYOJPsl5JM76U/e6CAQ6u0pOPimX16g/3KEnD0qmgXzH/Z3g
+	v5ch+t2WGNkV8ozOruoSzg6i6hJUUGyJAnjCEwKMUR/2Du0KBnt9W46qHIyUVbXya4ZVeFZDXQ0ki
+	iPFykJGh1xr8p52OFKp3DAnQjLXWzTecQzeBe0RhuPUlqhizeFC1ktdo0T9n/HFgbUNFwmcw7IuVC
+	NeiKYm9iMzKUdoMa2hj3a0ch4ghBhZM5dNV3NPQF9KgfkPppLpMU/8ts42BZoWx1Rat5BSbPLAZZT
+	OWvNt6zGYTLxH3nkBXjl6gdfx1AGLWNKh0Ig==
+Received: from ITDWEXCHG104.ad.seattle.gov (156.74.143.55) by
+ ITDWEXCHG104.ad.seattle.gov (156.74.143.55) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.2.1118.21; Tue, 17 Oct 2023 08:43:35 -0700
+Received: from NPI65F7AF.ad.seattle.gov (156.74.135.231) by Email.Seattle.Gov
+ (156.74.143.55) with Microsoft SMTP Server id 15.2.1118.21 via Frontend
+ Transport; Tue, 17 Oct 2023 08:43:35 -0700
+Message-ID: <f0dcc1f4d0b58b1c59d0c97de38cde13@wince>
+Date: Tue, 17 Oct 2023 16:54:40 -0700
+From: City of Seattle - MFP <Networkscanning@Seattle.gov>
+Subject: 809 Olive Way -  PA
+To: "shelby.allison@seattle.gov" <shelby.allison@seattle.gov>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="------_=_NextPart_001_C0849F79.BE9BBBA7"
+X-OrganizationHeadersPreserved: ITDWEXCHG104.ad.seattle.gov
+X-EOPAttributedMessage: 1
+X-CrossPremisesHeadersPromoted:
+ DM3GCC02FT041.eop-gcc02.prod.protection.outlook.com
+X-CrossPremisesHeadersFiltered:
+ DM3GCC02FT041.eop-gcc02.prod.protection.outlook.com
+X-MS-TrafficTypeDiagnostic:
+ DM3GCC02FT041:EE_|DM8PR09MB6358:EE_|DM3GCC02FT025:EE_|SJ0PR09MB10008:EE_|SA1PR09MB8542:EE_
+X-MS-Office365-Filtering-Correlation-Id: c2720070-1eb5-4dc6-330d-08dbcf2832e9
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original:
+ =?us-ascii?Q?uL0cRJavc5w6alng79IsDn2jmQTPOnVCbzB2FF1a4x7Belgb3sEBsXv7NsDP?=
+ =?us-ascii?Q?zqC0tcz7WqD6d7m1kEkuindI+mFqftGa+scsCxpglFz/PiKBdRJILNKGlgXo?=
+ =?us-ascii?Q?9kqEkJRqjP1HxGzNLgyK4x7UlkCcHakF6Bpn1BNWTM3PZqe6RuxM9jXXJLm4?=
+ =?us-ascii?Q?HxAJu7tHSMzGekVDzBbPQtECM2Q02mVR/2xdSo5fVxrfIgDJrPKb0V7qLfrH?=
+ =?us-ascii?Q?F0FSzjRYrA7ii5gtjwid+BkVndwi6+pjnjW8rQMQtbtmmWOvpE5ipCyEdSSB?=
+ =?us-ascii?Q?owN+YcEWdl8/ZFFvjNBYNCeuD6LFiuTlN9rpcIm2b2gTilyrU0C3CKb2Z5db?=
+ =?us-ascii?Q?awutNoydmHVm1ixZripASbQC9VGxIyibuLn/Lc7pOwBtkF4kvDxpLPWRYymZ?=
+ =?us-ascii?Q?6leLzoKQOetGZPGykGH9pFkPTOaPl/oskwCy7PGmd1jOFnx2u/gO/whCDzhc?=
+ =?us-ascii?Q?GGfciHlVUMMduzg+INi4DIPMth9ap3PQ18Un31RD5uPpEHaRuXl3lhKCGc8M?=
+ =?us-ascii?Q?QbmosmCpkGid2mNNnf1m+1JpHBkfRYiU3/n+Y/ZySTibUpcY6bJ1bzsfpsXt?=
+ =?us-ascii?Q?R3H62w5bKQgVJoCelAk0uPmqjM+psPw+DSTib3qxnA4tsFnR+iI+uOAn6GP0?=
+ =?us-ascii?Q?rEVOKM9/93x7VvI99/hWxOg3JP8QkgcLKg/a3+KMTVzk4Rr+NeMCElIDqavG?=
+ =?us-ascii?Q?fFDLx9NWWchjJQYpQx0Alh68h3TkO4AeJAqlTmu5N1D3mf7tWiwBiw8u6URL?=
+ =?us-ascii?Q?qAcWvrTuGWRyB5u6wMQQQJMJqfEwgQEkLt9yvfehknMPtUlSsPPhIwTjLvHQ?=
+ =?us-ascii?Q?FUtgMLEXj3jICvyJX4Ct2NViM5hws4R9qrC1GTyYgyb3GfYcGNQa6Kemjsxo?=
+ =?us-ascii?Q?+QskiAVaK7uChFH3T/a0ITyHHQdHsnhXXDYbiIwpsgdqk0ZqHxVKjCaqs0a+?=
+ =?us-ascii?Q?mOQuCMyX8nxneJ2c/K7k9iqBLTv2lDQMr6d6wxhBVvgrdyZ3jL5OiZzuQk3T?=
+ =?us-ascii?Q?tPtKsqI9qJ2qJ36d79hlCxNwEq9eVFxLVdWpn7y+9P0j03V9Z4uJERnhqg3r?=
+ =?us-ascii?Q?JzCg5gcIKu4RkUGPOvF+3zthc2QdkoBTKwIlplNQjf/eOFluRQemnfwpbmuI?=
+ =?us-ascii?Q?LO9XNRPkHTwC9mmPtvVsniiLBmNxkgFDsl0D9Vz1ayCk7PCM+fVg9dtsk82F?=
+ =?us-ascii?Q?Ecqo4EE8uAxr2x8ae0UY2OnsC3eKZ089vm7db0s2J/U5eJpodBj+FS3DgUMm?=
+ =?us-ascii?Q?o3GFLeKdE6MEDdcnytK8YpNXZcB4kTWAoB78P1E3B/8kXenGiu0qcXQ/RVZX?=
+ =?us-ascii?Q?Gf1M9gkg+zAn2G5myYGDnrS+812Uby2nqAOK0TNOnxiRiLKAd9uSC8HWM61g?=
+ =?us-ascii?Q?QmdVYvhac9ARvQFqIYx5PPfcYVoiHF8+UN24O5elrYBIM1ym9xW+83IoCJLJ?=
+ =?us-ascii?Q?UTts+Hr0Rzq1zW3ocx2vW+p3I2Pa4VNC8Cxq6//fql50V4pCaQeIcllR1aJ/?=
+ =?us-ascii?Q?8XLXLxi8rEUgyhzGcv6e2/dUlF0XdseTM07b+1XnImYYiJ5dB7/oZjB9SmJH?=
+ =?us-ascii?Q?KfNwD6SUtrMeka+BzTEitJt3Zn4ChUSTq+7lXuoZ+Byq8xQkLnaimFkBWtdU?=
+ =?us-ascii?Q?U9A2ThiBoyiy1Q0qkPPUC5fxQx7eXI0QNG5IAuoj7Yfw?=
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:156.74.250.97;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKN;H:email.seattle.gov;PTR:outsidesmtp12.seattle.gov;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM8PR09MB6358
+X-FE-ETP-METADATA: eyAidGlkIjogIjN5UHVSc1ktMjAwMDktMTAxNzRDMDg0MTYxREJBRTI1NmMyYjRhZmJiIiwgImFj
+ Y2VwdGVkX3RpbWVzdGFtcCI6ICIyMDIzMTAxNzE1NDQxNyIsICJhY2NlcHRlZF90aW1lc3RhbXBf
+ ZXBvY2giOiAiMTY5NzU1NzQ1NyIsICJkb21haW5fbmFtZSI6ICJzZWF0dGxlLmdvdiIsICJhdHRf
+ Y291bnQiOiAtMiwgInNyY19pcCI6ICIxMDQuNDcuNjUuMTAwIiB9
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Oct 2023 15:46:16.2842
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ c2720070-1eb5-4dc6-330d-08dbcf2832e9
+X-EOPTenantAttributedMessage: 78e61e45-6beb-4009-8f99-359d8b54f41b:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ DM3GCC02FT025.eop-gcc02.prod.protection.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ DM3GCC02FT025.eop-gcc02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ 5ebc6403-2a4f-4da2-ec2b-08dbcf27de66
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:15.200.32.126;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:mx.us.email.fireeyegov.com;PTR:mta-8f063r9.email.us.etp.fireeyegov.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Oct 2023 15:46:16.0498
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: c2720070-1eb5-4dc6-330d-08dbcf2832e9
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource:
+ DM3GCC02FT025.eop-gcc02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ0PR09MB10008
+X-MS-Exchange-Transport-EndToEndLatency: 00:01:10.0315360
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6886.034
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?at+fvebQq0oSr1Im9qXtai6DTGFa4akYxjfuJBUHkXi4lLpx7VRJJXUM8zyl?=
+ =?us-ascii?Q?lraJTUyYNE0399vcxQfwA1SwK1FXgsJfPt+T82/sRcta1b+Q3Rx8qOHQmOtY?=
+ =?us-ascii?Q?qfvRT/cUVWHOo4daqoL/cJ95M4fxylbdozD98X//w9C32I23X8rgsis/zdrN?=
+ =?us-ascii?Q?C5TMwg2kp7+dWjWtruILxls7VCGYg20NbmFeAs0Oz5gcPx0VvVgeZqbiBfsN?=
+ =?us-ascii?Q?nLZIxczVLPfq2c9rjIdByFGlovc+CbwnUcmJbEJAeXuazPe8nAEDMLNXCXVT?=
+ =?us-ascii?Q?wdxSUJkxM5nNkXpCb1auUxK/0RjQgc6N2nrY+n+yIgza3TViE5RP6zdnnv8C?=
+ =?us-ascii?Q?lwEEQBnAzZC6MjHJq1wIZp//oVGmPizkuYn3avwLaWnDBP0tYLgc1QcHjes5?=
+ =?us-ascii?Q?k+iIZwtdj+fsHZLasS7xIoXKb2s8j1WliXm4puwiQAEtdk85I/2eboJ68Y6a?=
+ =?us-ascii?Q?ltWsYT/TFKj90T8pP3i69QItrevd4qwsX2bkyhKsvwfl37sqQkHB31G04wWc?=
+ =?us-ascii?Q?3HnFbV/zQfWph3scJWPhDBCzn9T68P/1XJBXlF7DD/jJcOvW7I4Vfm6+Xh8W?=
+ =?us-ascii?Q?FL8dDYakEd4bR1LE52RF4eSMAHjB5LVH/YsqfUhzLpP2h1uD11clr4xd3hrz?=
+ =?us-ascii?Q?r89162b10yUPn5TuN9yL+pr4H/32FJZTqHQDfxXmtSInOtX6bQfiQwBcAXGM?=
+ =?us-ascii?Q?aoA4dQtuuGLl2txnF5rd3GVvGP3WVvUrplta7bKQPOjwa6KiuUMAaof79U33?=
+ =?us-ascii?Q?XhCaYct//bDGz+8J304cJeluQEq5+aHAYyFT1TEoIGvFtUlytOkUU0mx2ZJE?=
+ =?us-ascii?Q?gLd/A7TIE7PNJL37l4jBNOR69U3Z3gaGJbV925vld+DmeoGlrj+IfA6OU1rf?=
+ =?us-ascii?Q?kW1VfofpOV0KwKTtP4QmnfGfUcBOPU1WIcwaE3OnrF0wC41LgpOlqPmx4Txf?=
+ =?us-ascii?Q?hM14rrNMRisF5ZKv1QmtDofTl8XwuECrTrG8lwtaW+MfA1B1uMUPyZHC3PTH?=
+ =?us-ascii?Q?3qmrP14if1FTJTWhpEmLuEKATzPank15rIO6Le6fJp6YT2PL6ul9P89jOiBd?=
+ =?us-ascii?Q?AbXE98ikJJqqNE1mW1labnvwsGcS7EFPV2tKFSPaWMAISUCIwnBA1hW0w+kx?=
+ =?us-ascii?Q?YYL6H+qPU4g8T8xTJyeikkOjrJvQQ1q45RvT5eMoIV284J1+wnfNfa9hgK0F?=
+ =?us-ascii?Q?zn1qIaVkOm+gzHciDCI+NNJK8icgSZNtXroGiN027evJxYtzV9kavhBHJnAb?=
+ =?us-ascii?Q?yVyGDHO0ajXxcuha3fyrjYEgzxoPpPZGSj5s/sqYY514lgICEOmVrAwEbX1C?=
+ =?us-ascii?Q?SPI=3D?=

@@ -1,0 +1,15 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					297196
+Flags:					0x00000031 (Read, Has attachments, From me)
+Conversation topic:			notes
+Subject:				notes
+Sender name:				McCune, Alek
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=746B09443B2A4D8E954056A825C646EF-MCCUNEA
+Sent representing name:			McCune, Alek
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=746B09443B2A4D8E954056A825C646EF-MCCUNEA
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

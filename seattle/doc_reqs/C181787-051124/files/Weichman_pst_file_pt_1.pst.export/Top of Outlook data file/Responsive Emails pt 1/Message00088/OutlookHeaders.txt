@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					42189
+Flags:					0x00000001 (Read)
+Conversation topic:			SDCI Review Corrections for Project 7013748-CN, 809 OLIVE WAY SEATTLE, WA 98101
+Subject:				SDCI Review Corrections for Project 7013748-CN, 809 OLIVE WAY SEATTLE, WA 98101
+Sender name:				SDCI Permits
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bdd07f4833d64ea68e7e7ba2561459de-SCI_PERMITS
+Sent representing name:			SDCI Permits
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bdd07f4833d64ea68e7e7ba2561459de-SCI_PERMITS
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

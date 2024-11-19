@@ -1,0 +1,14 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					42174
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			013867-23cp
+Subject:				Re: 013867-23cp
+Sender name:				Brunner, Pamela (SCI)
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5bdae3fc76a7424c96dbdbf49a388448-020323ba-08
+Sent representing name:			Brunner, Pamela (SCI)
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5bdae3fc76a7424c96dbdbf49a388448-020323ba-08
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is private:				no
+

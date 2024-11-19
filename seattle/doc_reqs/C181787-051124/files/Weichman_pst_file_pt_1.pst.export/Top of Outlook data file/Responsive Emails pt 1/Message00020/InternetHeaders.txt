@@ -1,0 +1,64 @@
+Received: from SJ0PR09MB6333.namprd09.prod.outlook.com (2603:10b6:a03:26f::22)
+ by CO6PR09MB8070.namprd09.prod.outlook.com with HTTPS; Fri, 9 Jun 2023
+ 00:24:05 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=seattle.gov;
+Received: from CO6PR09MB8070.namprd09.prod.outlook.com (2603:10b6:303:d1::7)
+ by SJ0PR09MB6333.namprd09.prod.outlook.com (2603:10b6:a03:26f::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.42; Fri, 9 Jun
+ 2023 00:24:03 +0000
+Received: from CO6PR09MB8070.namprd09.prod.outlook.com
+ ([fe80::3f08:1f52:42a3:162f]) by CO6PR09MB8070.namprd09.prod.outlook.com
+ ([fe80::3f08:1f52:42a3:162f%7]) with mapi id 15.20.6455.037; Fri, 9 Jun 2023
+ 00:24:03 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "McCune, Alek" <Alek.McCune@seattle.gov>
+To: "McCune, Alek" <Alek.McCune@seattle.gov>
+Subject: SPRs
+Thread-Topic: SPRs
+Thread-Index: AdmaaKxEpBjEVfccQqKveKpniPzWjg==
+Date: Fri, 9 Jun 2023 00:24:02 +0000
+Message-ID:
+ <CO6PR09MB8070ED74C1F48B5E83091D4EEA51A@CO6PR09MB8070.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <CO6PR09MB8070ED74C1F48B5E83091D4EEA51A@CO6PR09MB8070.namprd09.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: CO6PR09MB8070.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ 8f117860-385f-4abb-5269-08db687fd40a
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ CO6PR09MB8070:EE_|SJ0PR09MB6333:EE_|CO6PR09MB8070:EE_
+Return-Path: Alek.McCune@seattle.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 09 Jun 2023 00:24:03.3342
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: 8f117860-385f-4abb-5269-08db687fd40a
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR09MB8070.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Jun 2023 00:24:03.0074
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR09MB8070.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8f117860-385f-4abb-5269-08db687fd40a
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ0PR09MB6333
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.3216842
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6455.026
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	GkSNdBqcJuIG3Z+lbnJlwUc+zIXMnTIpbJpfzYtIg+KR+IBX9kQF9p4/ATLch+1xJc1xOAs0elLcPPmXzLiKg6r1yDh8aUjcYtCA95Aj0EaOtHqNUyxZ0xaur5+0F7Km7yU1s+ubUV8O7tpnXHHmD39ZfMlw8bSFBMUvvfXsWDP73gdQT+xmdvQnx5KX9dK12cQgujrEOwq/qHK1HeBsSYn+HxLwH2NNFPkRLpjZ1AUVGwznhWkMMn56ccG1MyUqb790ZDguS2CC8IyFsNOkCcYbL2URViZI8EBJ9IYVb6WlRqWHWpAX8fhBTHTBP4jKT8cIGFojA2W2ShDsp33L/2HRffrseyQFSEh0k0u4n9HtlmMoa8mlI9D7kePdfAR8o9BuEYCMKk67sKF6Soo9qrQ5ZbqJ/NUv57OaPIL+7q6qDKZtTDr5gKv5pMFmPavMUAShdru5kEIHYFDg0f13yxcS55VyLE3FZQfoCHDpglqqb86c9netC1qQ1B39qyRpt7gqlv9jp4QdH86XGEnog+Ot+j29BUUqHBnr5VL/KLPZ4sVsIgc0RBUKjWca9fYsskOJevag2ryo3ubUvTAKVuP67S2ZV/lk3oV1yhTrJdywDVKqNQu30HiLzAnu3fLh4kf21GOmV0ZGscuS98Ei7l4imzPV7fUNCIBoyHyHKrPObW5/Kg+K6xuRStZTtKnV

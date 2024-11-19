@@ -1,0 +1,14 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					76059
+Flags:					0x00000001 (Read)
+Conversation topic:			002450-24CP
+Subject:				Fwd: 002450-24CP
+Sender name:				Keppinger, Katie Jo
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5384D54905934B9DB8FBD97D556F8C2A-KEPPINK
+Sent representing name:			Keppinger, Katie Jo
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5384D54905934B9DB8FBD97D556F8C2A-KEPPINK
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is private:				no
+

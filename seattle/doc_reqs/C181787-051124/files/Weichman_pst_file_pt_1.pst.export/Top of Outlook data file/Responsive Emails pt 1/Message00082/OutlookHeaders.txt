@@ -1,0 +1,15 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					82404
+Flags:					0x00000001 (Read)
+Conversation topic:			002450-24CP
+Subject:				RE: 002450-24CP
+Sender name:				Tallent, Geoff
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=FAE87CD722BF4B778D371DD40A182100-TALLENG
+Sent representing name:			Tallent, Geoff
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=FAE87CD722BF4B778D371DD40A182100-TALLENG
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					175781
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			The Olivian 3 Day Notice 1607, Perkins and Nava
+Subject:				The Olivian 3 Day Notice 1607, Perkins and Nava
+Sender name:				The Olivian Assistant Manager
+Sender email address:			theolivianamgr@greystar.com
+Sent representing name:			The Olivian Assistant Manager
+Sent representing email address:	theolivianamgr@greystar.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

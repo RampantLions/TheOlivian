@@ -1,0 +1,30 @@
+Display name:		Groshong, Carmen
+Recipient display name:	Groshong, Carmen
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=733a1b426a0940319d2d7a6076255481-GroshoC1
+Address type:		EX
+Recipient type:		To
+
+Display name:		Tuy, Rana
+Recipient display name:	Tuy, Rana
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=57e23ff271d4456ea6583cdd94ae2627-TuyR
+Address type:		EX
+Recipient type:		To
+
+Display name:		Compo, June
+Recipient display name:	Compo, June
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a939ca7b27054eaab06b6e7e67ef050e-CompoJ
+Address type:		EX
+Recipient type:		To
+
+Display name:		McCarty, Jeannette
+Recipient display name:	McCarty, Jeannette
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8f1a19c1c3e0400e8bc860be770c3974-McCartJ1
+Address type:		EX
+Recipient type:		CC
+
+Display name:		Ahmad, Kathleen
+Recipient display name:	Ahmad, Kathleen
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5d3b82b91db3461d9df816461c5407b0-AhmadK
+Address type:		EX
+Recipient type:		CC
+

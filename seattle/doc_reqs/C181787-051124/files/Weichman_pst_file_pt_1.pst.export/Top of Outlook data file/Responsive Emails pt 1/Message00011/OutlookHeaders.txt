@@ -1,0 +1,15 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					26375403
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Urgent Compliance and Investigation Required for The Olivian Apartments
+Subject:				RE: Urgent Compliance and Investigation Required for The Olivian Apartments
+Sender name:				Daniels, Crystal
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=9EA2CFDEA2AE4C5FADAEBCD00CC1CC95-DANIELC
+Sent representing name:			Daniels, Crystal
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=9EA2CFDEA2AE4C5FADAEBCD00CC1CC95-DANIELC
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

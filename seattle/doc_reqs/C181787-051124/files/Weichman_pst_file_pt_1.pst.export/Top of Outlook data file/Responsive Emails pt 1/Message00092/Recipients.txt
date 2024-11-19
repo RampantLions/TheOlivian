@@ -1,0 +1,12 @@
+Display name:		Brunner, Pamela (SCI)
+Recipient display name:	Brunner, Pamela (SCI)
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5bdae3fc76a7424c96dbdbf49a388448-020323ba-08
+Address type:		EX
+Recipient type:		To
+
+Display name:		Jenkins, Eric
+Recipient display name:	Jenkins, Eric
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0d9ed09c4e3145b7bb83767889f0614c-JenkinE
+Address type:		EX
+Recipient type:		To
+

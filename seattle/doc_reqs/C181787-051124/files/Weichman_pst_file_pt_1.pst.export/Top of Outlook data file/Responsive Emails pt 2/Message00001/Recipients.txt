@@ -1,0 +1,5 @@
+Display name:		Allison, Shelby
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cf9d99a9f44c4756bd16c24c7ca2d262-5d85bcda-88
+Address type:		EX
+Recipient type:		To
+

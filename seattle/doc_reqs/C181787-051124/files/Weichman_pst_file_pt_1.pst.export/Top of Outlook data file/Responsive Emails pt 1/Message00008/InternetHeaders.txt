@@ -1,0 +1,66 @@
+Received: from BLAPR09MB6562.namprd09.prod.outlook.com (2603:10b6:208:2a9::10)
+ by DM8PR09MB6293.namprd09.prod.outlook.com with HTTPS; Sat, 18 Nov 2023
+ 20:30:20 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=seattle.gov;
+Received: from CO6PR09MB7767.namprd09.prod.outlook.com (2603:10b6:303:cc::18)
+ by BLAPR09MB6562.namprd09.prod.outlook.com (2603:10b6:208:2a9::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7002.26; Sat, 18 Nov
+ 2023 20:30:19 +0000
+Received: from CO6PR09MB7767.namprd09.prod.outlook.com
+ ([fe80::76d1:371c:f1d1:d0a3]) by CO6PR09MB7767.namprd09.prod.outlook.com
+ ([fe80::76d1:371c:f1d1:d0a3%6]) with mapi id 15.20.7002.026; Sat, 18 Nov 2023
+ 20:30:19 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "Washington, Stella" <Stella.Washington@seattle.gov>
+To: "Daniels, Crystal" <Crystal.Daniels@seattle.gov>
+Subject: Record ID: 013531-23CP - 809 Olive Way - J Wiechman - HBMC INSPECTION
+ REQUEST
+Thread-Topic: Record ID: 013531-23CP - 809 Olive Way - J Wiechman - HBMC
+ INSPECTION REQUEST
+Thread-Index: AdoaXNZH4UAEF7smTi+2b3gmyCc7RA==
+Date: Sat, 18 Nov 2023 20:30:19 +0000
+Message-ID:
+ <CO6PR09MB7767747A765A045998EC49B7E1B6A@CO6PR09MB7767.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <CO6PR09MB7767747A765A045998EC49B7E1B6A@CO6PR09MB7767.namprd09.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: CO6PR09MB7767.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ 764cab6b-e351-41f6-650d-08dbe8752e72
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ CO6PR09MB7767:EE_|BLAPR09MB6562:EE_|DM8PR09MB6293:EE_
+Return-Path: Stella.Washington@seattle.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 18 Nov 2023 20:30:19.7773
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: 764cab6b-e351-41f6-650d-08dbe8752e72
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR09MB7767.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Nov 2023 20:30:19.0951
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR09MB7767.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: 764cab6b-e351-41f6-650d-08dbe8752e72
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLAPR09MB6562
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.7988483
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7002.024
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	kecapatVQejDwU6G4nCxvBqZIg/+LA20hVJobYH50p2O+Kp3YLXOu1GYJTc3xi94ledgBmpevIBTnVET0lITfzCZb63Su+wQ2iuhopovT1iPhfwbFCqJlXEG7B/7qUWmeoZYY1xLncRbT09kg4RpdV6s3uelrWLfkWtBFZU1t73BSpUcn79sPK2+Pb4JqGwRZX5kdHUXNlhIlG4JUgzlk+cAUa6N9hinoff/x7dtzZNqmDQH3FoN3N8knPmq67LJnyNYIqpS9ASUeLb+JI0R+LTvgZuwhI1ZeQui/lSMiRQrllKrL6g6bksWf7NzhFAHgAHiUkHbL2EhFhtgRyZSGoV05yjrxCgoeSW2d0gFDrWi5nl6Z8j1p1ESkPNZWgFGWU3dXjhSLEGCjhvTJ+8xqpzDMmXSbNllsfNSQ+YpQHYcfBUZ86U0aPMqeUOwdjONataLJZhJi7+U+euPDPe0yPntNQE+lfbFgN38EGOko9FAoxWGrjCG8eV0WsNS1IRLvkjw/BoMUDAGEwXgprbFswxCXMytSs2Wt7OnHtHi4+lKlEgldTk+SVWfRv514PYk49PejqSY++9CnBtNrq/RfHhjaoAvoWFugrvNVJn4hY6dr8XTwPrgycxpPvkJk6Z16Tx3S5IWqdIRblSDc6x8uWjOzJ1u6m98lX9KdB0wqoF5/R5AuBHvhqX4JJyi272gyBN5bhHpXaO74XucEsAGvoB3i5RYVteOHFdLSOfOc7qennPujvJo1+lEfnAQNpDy

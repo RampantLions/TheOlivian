@@ -1,0 +1,66 @@
+Received: from MW4PR09MB10059.namprd09.prod.outlook.com
+ (2603:10b6:303:1fc::22) by CO6PR09MB7541.namprd09.prod.outlook.com with
+ HTTPS; Sat, 9 Mar 2024 20:13:28 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=seattle.gov;
+Received: from CO6PR09MB8022.namprd09.prod.outlook.com (2603:10b6:303:cd::15)
+ by MW4PR09MB10059.namprd09.prod.outlook.com (2603:10b6:303:1fc::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7362.33; Sat, 9 Mar
+ 2024 20:13:25 +0000
+Received: from CO6PR09MB8022.namprd09.prod.outlook.com
+ ([fe80::4748:c21f:c00f:59c7]) by CO6PR09MB8022.namprd09.prod.outlook.com
+ ([fe80::4748:c21f:c00f:59c7%5]) with mapi id 15.20.7362.031; Sat, 9 Mar 2024
+ 20:13:25 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "Keppinger, Katie Jo" <KatieJo.Keppinger@seattle.gov>
+To: "Tallent, Geoff" <Geoff.Tallent@seattle.gov>
+Subject: FW: 002450-24CP
+Thread-Topic: 002450-24CP
+Thread-Index: AQHacb2E2DFhAYEhDUOJ5TQT40ZkS7Euq9tA
+Date: Sat, 9 Mar 2024 20:13:24 +0000
+Message-ID:
+ <CO6PR09MB8022104C4C2AC756C5A67E3AF4262@CO6PR09MB8022.namprd09.prod.outlook.com>
+References: <EFDF2B73-E3F4-47EE-A38D-8589AD3ACE1B@gmail.com>
+In-Reply-To: <EFDF2B73-E3F4-47EE-A38D-8589AD3ACE1B@gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <CO6PR09MB8022104C4C2AC756C5A67E3AF4262@CO6PR09MB8022.namprd09.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: CO6PR09MB8022.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ 87b62a8c-85c4-4761-d3ef-08dc40756043
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ CO6PR09MB8022:EE_|MW4PR09MB10059:EE_|CO6PR09MB7541:EE_
+Return-Path: KatieJo.Keppinger@seattle.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 09 Mar 2024 20:13:25.6285
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: 87b62a8c-85c4-4761-d3ef-08dc40756043
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR09MB8022.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Mar 2024 20:13:24.9975
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR09MB8022.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: 87b62a8c-85c4-4761-d3ef-08dc40756043
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MW4PR09MB10059
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.3518270
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7362.031
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	lDog/5UIqlIt6cs8KBxmry2AY/doa7ivjdxD2LVfyS0jr4mjf7BS5VNtbsa9vfKHz7eIzFHH9X9FgJp/iVe4dV/j+X15PjTS1D4zFRLAfiWRY4/jk9NnaR+AKXtd7ov1KwoXF16yrsV1/izPtbcdK4/ukwfBoJAvNgonvfJkpia7zsTlqoJbts5QENI9o/WN7qmCXBg1DrDSnYB5/7z7cR/4O3ikDbZczof4zCleVK9+k4Y4v/ZgJvEH2FBZ7m1Pin7PjV7+KmfwPJMeD+wS7Zt8mdzCt1YyCFwEteBUh8BYO0D9M1BCMPYdcY2OZ5hAHlRdSV0MwOAigk0gJZM0zwo7+JX8RvJO7Ykc7ALiz1QakVtPDeucLCsSai5P+jRuyAPPS0FSsPDSD7IdwDefmKzHXEqsCZYRW83FrnTMpdQFMSe2hdY4rxTZO1hVh31L5x0WVDdxullivvuioXBeLvTrw3rIpDGbvYSMag94ewGNo0sdPUKiLqWecBSkdwvXdCDhJ4NY7XQNgnv1sRi1d7RDad53xnQFXQwJu7/Zuj2fVgVaR4SoLvZQc6xBpte0pq4LCmNfFxszaAuWTnEbrfIYpNgNWIyl+9zEhs0c/V8TS5JrT4OmZni0L7sPzDKCJC3GxkS2XJp3eHhJF/+e6NiRvfhiZStmY8/tYVohbiM07XDGMbJZJIX2Td4vjHyovVTVOyU2HSduG1DjFasCAoCWbJ5NQCC0/4yV1Z23nwhlJXxOBLQXykWPUyNpwMwVjnpmZDebHNA1yeGyR7uvlQ==

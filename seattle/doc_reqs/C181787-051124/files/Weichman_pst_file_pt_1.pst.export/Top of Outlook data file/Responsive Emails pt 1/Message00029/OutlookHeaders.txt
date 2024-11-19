@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					77813
+Flags:					0x00000001 (Read)
+Conversation topic:			Certificate Inspection Fees Due on EQP-BP-16742, 809 OLIVE WAY SEATTLE, 98101
+Subject:				Fw: Certificate Inspection Fees Due on EQP-BP-16742, 809 OLIVE WAY SEATTLE, 98101
+Sender name:				The Olivian Assistant Manager
+Sender email address:			theolivianamgr@greystar.com
+Sent representing name:			The Olivian Assistant Manager
+Sent representing email address:	theolivianamgr@greystar.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

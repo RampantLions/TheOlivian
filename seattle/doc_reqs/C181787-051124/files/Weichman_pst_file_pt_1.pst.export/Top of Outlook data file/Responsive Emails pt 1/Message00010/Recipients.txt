@@ -1,0 +1,6 @@
+Display name:		Daniels, Crystal
+Recipient display name:	Daniels, Crystal
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9ea2cfdea2ae4c5fadaebcd00cc1cc95-DanielC
+Address type:		EX
+Recipient type:		To
+

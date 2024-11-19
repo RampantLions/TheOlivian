@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					33898
+Flags:					0x00000001 (Read)
+Conversation topic:			Thank You for Your Payment on Record 7013748-CN at 809 OLIVE WAY SEATTLE, WA 98101
+Subject:				Thank You for Your Payment on Record 7013748-CN at 809 OLIVE WAY SEATTLE, WA 98101
+Sender name:				Seattle Services Portal
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=09e34e9809104b3f90abcd20520d1878-SSPORTAL_NO
+Sent representing name:			Seattle Services Portal
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=09e34e9809104b3f90abcd20520d1878-SSPORTAL_NO
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

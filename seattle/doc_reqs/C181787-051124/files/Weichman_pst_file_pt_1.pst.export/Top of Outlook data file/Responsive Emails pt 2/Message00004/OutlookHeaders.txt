@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					30518
+Flags:					0x00000001 (Read)
+Conversation topic:			Waiting for payment on 7013748-CN, 809 OLIVE WAY SEATTLE, WA 98101
+Subject:				Waiting for payment on 7013748-CN, 809 OLIVE WAY SEATTLE, WA 98101
+Sender name:				Seattle Department of Construction and Inspections
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c9a8f7f5bbe74b8db62c07422c2448bc-SCI_NOREPLY
+Sent representing name:			Seattle Department of Construction and Inspections
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c9a8f7f5bbe74b8db62c07422c2448bc-SCI_NOREPLY
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

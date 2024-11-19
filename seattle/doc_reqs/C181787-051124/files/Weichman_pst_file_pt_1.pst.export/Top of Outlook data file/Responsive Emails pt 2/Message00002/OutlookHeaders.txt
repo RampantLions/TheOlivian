@@ -1,0 +1,15 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					76090
+Flags:					0x00000001 (Read)
+Conversation topic:			Construction Intakes 4/25/24
+Subject:				FW: Construction Intakes 4/25/24
+Sender name:				Steinberg, Jason
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=A90CAFD07A6E45B2842183C11770D677-USER_F58360
+Sent representing name:			Steinberg, Jason
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=A90CAFD07A6E45B2842183C11770D677-USER_F58360
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

@@ -1,0 +1,15 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					264315
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Conduct of Pamela Brunner, SDCI Complaint No. 013867-23CP
+Subject:				FW: Conduct of Pamela Brunner, SDCI Complaint No. 013867-23CP
+Sender name:				Jenkins, Eric
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=0D9ED09C4E3145B7BB83767889F0614C-JENKINE
+Sent representing name:			Jenkins, Eric
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=0D9ED09C4E3145B7BB83767889F0614C-JENKINE
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

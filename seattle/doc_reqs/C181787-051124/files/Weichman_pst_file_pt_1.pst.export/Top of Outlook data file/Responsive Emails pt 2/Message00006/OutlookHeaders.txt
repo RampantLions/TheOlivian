@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					76372
+Flags:					0x00000001 (Read)
+Conversation topic:			Conduct of Pamela Brunner, SDCI Complaint No. 013867-23CP
+Subject:				Re: Conduct of Pamela Brunner, SDCI Complaint No. 013867-23CP
+Sender name:				Josh Wiechman
+Sender email address:			josh.wiechman@gmail.com
+Sent representing name:			Josh Wiechman
+Sent representing email address:	josh.wiechman@gmail.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

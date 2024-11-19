@@ -1,0 +1,69 @@
+Received: from DM6PR09MB5430.namprd09.prod.outlook.com (2603:10b6:5:261::12)
+ by PH0PR09MB11376.namprd09.prod.outlook.com with HTTPS; Thu, 9 May 2024
+ 19:24:54 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=seattle.gov;
+Received: from CO6PR09MB8790.namprd09.prod.outlook.com (2603:10b6:303:c0::8)
+ by DM6PR09MB5430.namprd09.prod.outlook.com (2603:10b6:5:261::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7544.48; Thu, 9 May
+ 2024 19:22:47 +0000
+Received: from CO6PR09MB8790.namprd09.prod.outlook.com
+ ([fe80::c542:a803:98e1:80a3]) by CO6PR09MB8790.namprd09.prod.outlook.com
+ ([fe80::c542:a803:98e1:80a3%4]) with mapi id 15.20.7544.046; Thu, 9 May 2024
+ 19:22:46 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "Jenkins, Eric" <Eric.Jenkins@seattle.gov>
+To: "Brunner, Pamela (SCI)" <Pamela.Brunner@seattle.gov>
+Subject: FW: Conduct of Pamela Brunner, SDCI Complaint No. 013867-23CP
+Thread-Topic: Conduct of Pamela Brunner, SDCI Complaint No. 013867-23CP
+Thread-Index: AQHaj1bo9JmZ8HpFo0qp11U00V3Z37GAZtaAgAwDW4CAArsfoIAAJhcAgAAiT8A=
+Date: Thu, 9 May 2024 19:22:46 +0000
+Message-ID:
+ <CO6PR09MB8790C3DB1B00697665AEF55499E62@CO6PR09MB8790.namprd09.prod.outlook.com>
+References:
+ <CO6PR09MB87900D0284218ED56E53E6A899E62@CO6PR09MB8790.namprd09.prod.outlook.com>
+ <88FB9F94-1E2D-4FD1-A8D4-996A9BF0D018@gmail.com>
+In-Reply-To: <88FB9F94-1E2D-4FD1-A8D4-996A9BF0D018@gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <CO6PR09MB8790C3DB1B00697665AEF55499E62@CO6PR09MB8790.namprd09.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: CO6PR09MB8790.namprd09.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ bbc8e2b6-e926-4eaa-4a58-08dc705d6898
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ CO6PR09MB8790:EE_|DM6PR09MB5430:EE_|PH0PR09MB11376:EE_
+Return-Path: Eric.Jenkins@seattle.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 09 May 2024 19:22:47.2450
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: bbc8e2b6-e926-4eaa-4a58-08dc705d6898
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-Microsoft-Antispam: BCL:0;ARA:13230031|366007|41050700001;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR09MB8790.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230031)(366007)(41050700001);DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 May 2024 19:22:46.8812
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 78e61e45-6beb-4009-8f99-359d8b54f41b
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR09MB8790.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: bbc8e2b6-e926-4eaa-4a58-08dc705d6898
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR09MB5430
+X-MS-Exchange-Transport-EndToEndLatency: 00:02:07.5352498
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7544.013
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	FE2CsKE5enYS6IT7W6TsjOSCaJUFbI4yfvzKo2bA45g9GGE9roM5WiHPwoQoI5VeCEDdU/rCeeLknOMZBTgVtwsiMv1Oro4dm1W6Nu2iVk7iQ37TA0TW0BTZLNRJtYFaEK0LX3/7qYyXbEy20vpl4BxzWo/RcHC/7ksVBfnOGUTp9Mr3XqBVlEzl4fyJFeY0FGic/60LpFd6yQWh6qxQdypL7Nrar70PZ5H6oVXiFRyXI3zj2GcOTAC9zfCVHT/5HdDlH63XypEyEXhR0KxT0e39eUwVJ8b4FDRm5wwbM7+cqYcGw7BGoNPWO+R+aVvcBKlw114DG3zSQlMf2Xajg0cTABs9LAOcwVctO6jMFlPireWIu3si7dJohy5Srcwh53Shgw/ZjFIIzQBkD/hrN3G2t6ynGqziF3o52/HTD4liBC7N4xq5zzpr/LHj+5nQRBCR8QaP3YLhpo/CDVWrRFZDkyehwfjkToOThxRbX+80QJ2J3jcwm1PX2vm9FiVuML9H/gGTSRpS4do6ntox5PgMOSnDzurWE6nYF+ld9oJfxSsR6//gSJ5v6DuVQe/DRYUeSvx2dk8uduROjHjRasnvtutKsgWLwojdamNjrxZLXUg3CgquSEIOLhagFKCE+tsMP4gWiuYX6oJguy2ZORCVkJWLAKSrH1X5U9o6xbs3snqi3stlfqLcstM7pJxqYOKT/gpR6LfdTlY3lfKRlydd6eGXUSwWdqdPOvOLS7vxENI35VircjdD8rakGHFwlPnASI988kAYxJG7Bu3rLxzQMn6rRdajruHjQOK3uSpWPdIyUJRxVyvUYLe8wyO0gAFttcK0SgBDR7eL5g6ffg==

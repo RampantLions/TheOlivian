@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					31172221
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			1105 
+Subject:				1105 
+Sender name:				The Olivian Maintenance
+Sender email address:			theolivianmaint@greystar.com
+Sent representing name:			The Olivian Maintenance
+Sent representing email address:	theolivianmaint@greystar.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

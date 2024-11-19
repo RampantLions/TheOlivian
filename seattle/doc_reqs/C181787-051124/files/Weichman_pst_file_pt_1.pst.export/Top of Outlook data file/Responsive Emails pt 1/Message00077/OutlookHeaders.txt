@@ -1,0 +1,13 @@
+Message:
+Client submit time:			Delivery time:				Creation time:				Modification time:			Size:					38060
+Flags:					0x00000001 (Read)
+Conversation topic:			Your certification inspection is complete for (EQP-CY-07149), but corrections are required.
+Subject:				Your certification inspection is complete for (EQP-CY-07149), but corrections are required.
+Sender name:				SDCI Licensing
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e76807fe2cb646bd91da47ae1791d929-SCI_LICENSI
+Sent representing name:			SDCI Licensing
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e76807fe2cb646bd91da47ae1791d929-SCI_LICENSI
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

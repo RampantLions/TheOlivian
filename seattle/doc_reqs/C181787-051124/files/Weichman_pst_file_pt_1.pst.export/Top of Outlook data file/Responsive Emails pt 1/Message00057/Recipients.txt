@@ -1,0 +1,10 @@
+Display name:		The Olivian Assistant Manager
+Email address:		theolivianamgr@greystar.com
+Address type:		SMTP
+Recipient type:		To
+
+Display name:		Brunner, Pamela (SCI)
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5bdae3fc76a7424c96dbdbf49a388448-020323ba-08
+Address type:		EX
+Recipient type:		To
+

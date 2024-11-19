@@ -1,0 +1,5 @@
+Display name:		SCI_PDR
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2597a613b7d1482b855b50a0471c0efd-DPD_PDR
+Address type:		EX
+Recipient type:		To
+
